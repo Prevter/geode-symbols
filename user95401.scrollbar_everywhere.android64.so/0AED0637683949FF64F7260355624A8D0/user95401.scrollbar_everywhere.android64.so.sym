@@ -1,0 +1,436 @@
+MODULE Linux arm64 0AED0637683949FF64F7260355624A8D0 user95401.scrollbar_everywhere.android64.so
+INFO CODE_ID 3706ED0A3968FF4964F7260355624A8DCDAC8F7A
+INFO GENERATOR mozilla/dump_syms 2.3.4
+PUBLIC 5750 0 __on_dlclose
+PUBLIC 5760 0 __emutls_unregister_key
+PUBLIC 5768 0 __on_dlclose_late
+PUBLIC 5770 0 __atexit_handler_wrapper
+PUBLIC 5784 0 atexit
+PUBLIC 57a0 0 pthread_atfork
+PUBLIC 57b0 0 unwind_phase2
+PUBLIC 58e4 0 _Unwind_Resume
+PUBLIC 5968 0 unwind_phase2_forced
+PUBLIC m 5a5c 0 __unw_init_local
+PUBLIC m 5b04 0 __unw_get_reg
+PUBLIC 5b80 0 __unw_step_stage2
+PUBLIC m 5b94 0 __unw_get_proc_info
+PUBLIC m 5bd4 0 __unw_resume
+PUBLIC 5bfc 0 libunwind::CFI_Parser<libunwind::LocalAddressSpace>::decodeFDE(libunwind::LocalAddressSpace&, unsigned long, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::FDE_Info*, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::CIE_Info*, bool)
+PUBLIC 5d8c 0 libunwind::CFI_Parser<libunwind::LocalAddressSpace>::parseCIE(libunwind::LocalAddressSpace&, unsigned long, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::CIE_Info*)
+PUBLIC 6054 0 libunwind::AbstractUnwindCursor::~AbstractUnwindCursor()
+PUBLIC 605c 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::~UnwindCursor()
+PUBLIC 6064 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::validReg(int)
+PUBLIC 60a8 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::getReg(int)
+PUBLIC 6190 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::setReg(int, unsigned long)
+PUBLIC 6278 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::validFloatReg(int)
+PUBLIC 628c 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::getFloatReg(int)
+PUBLIC 629c 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::setFloatReg(int, double)
+PUBLIC 62ac 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::step(bool)
+PUBLIC 639c 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::getInfo(unw_proc_info_t*)
+PUBLIC 63e0 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::jumpto()
+PUBLIC 63ec 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::isSignalFrame()
+PUBLIC 63f8 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::getFunctionName(char*, unsigned long, unsigned long*)
+PUBLIC 6424 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::setInfoBasedOnIPRegister(bool)
+PUBLIC 6660 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::getRegisterName(int)
+PUBLIC 666c 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::stepThroughSigReturn(libunwind::Registers_arm64&)
+PUBLIC 678c 0 libunwind::DwarfInstructions<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::stepWithDwarf(libunwind::LocalAddressSpace&, unsigned long, unsigned long, libunwind::Registers_arm64&, bool&, bool)
+PUBLIC 6c20 0 libunwind::CFI_Parser<libunwind::LocalAddressSpace>::parseFDEInstructions(libunwind::LocalAddressSpace&, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::FDE_Info const&, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::CIE_Info const&, unsigned long, int, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::PrologInfo*)
+PUBLIC 7798 0 libunwind::DwarfInstructions<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::getCFA(libunwind::LocalAddressSpace&, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::PrologInfo const&, libunwind::Registers_arm64 const&)
+PUBLIC 78cc 0 libunwind::DwarfInstructions<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::getSavedRegister(libunwind::LocalAddressSpace&, libunwind::Registers_arm64 const&, unsigned long, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::RegisterLocation const&)
+PUBLIC 7adc 0 libunwind::LocalAddressSpace::getEncodedP(unsigned long&, unsigned long, unsigned char, unsigned long)
+PUBLIC 7e68 0 libunwind::LocalAddressSpace::getULEB128(unsigned long&, unsigned long)
+PUBLIC 8030 0 libunwind::DwarfInstructions<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::evaluateExpression(unsigned long, libunwind::LocalAddressSpace&, libunwind::Registers_arm64 const&, unsigned long)
+PUBLIC 89f4 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::getInfoFromDwarfSection(unsigned long, libunwind::UnwindInfoSections const&, unsigned int)
+PUBLIC 8cc8 0 libunwind::findUnwindSectionsByPhdr(dl_phdr_info*, unsigned long, void*)
+PUBLIC 8df8 0 libunwind::EHHeaderParser<libunwind::LocalAddressSpace>::decodeEHHdr(libunwind::LocalAddressSpace&, unsigned long, unsigned long, libunwind::EHHeaderParser<libunwind::LocalAddressSpace>::EHHeaderInfo&)
+PUBLIC 8f18 0 libunwind::CFI_Parser<libunwind::LocalAddressSpace>::findFDE(libunwind::LocalAddressSpace&, unsigned long, unsigned long, unsigned long, unsigned long, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::FDE_Info*, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::CIE_Info*)
+PUBLIC 90e0 0 libunwind::EHHeaderParser<libunwind::LocalAddressSpace>::findFDE(libunwind::LocalAddressSpace&, unsigned long, unsigned long, unsigned int, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::FDE_Info*, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::CIE_Info*)
+PUBLIC 9248 0 libunwind::EHHeaderParser<libunwind::LocalAddressSpace>::getTableEntrySize(unsigned char)
+PUBLIC 9344 0 libunwind::Registers_arm64::getRegisterName(int)
+PUBLIC 9374 0 __libunwind_Registers_arm64_jumpto
+PUBLIC m 9404 0 __unw_getcontext
+PUBLIC 94a0 0 addScrollBarToNode(cocos2d::CCNode*, float, cocos2d::CCNode*)
+PUBLIC 987c 0 geode::Ref<cocos2d::CCNode>::~Ref()
+PUBLIC 9898 0 addScrollbar(cocos2d::CCNode*, float, cocos2d::CCNode*)::$_0::~$_0()
+PUBLIC 98d4 0 __cxx_global_var_init
+PUBLIC 9a50 0 __cxx_global_var_init.1
+PUBLIC 9bb8 0 __cxx_global_var_init.3
+PUBLIC 9d30 0 std::__ndk1::__throw_length_error[abi:ne190000](char const*)
+PUBLIC 9d80 0 std::length_error::length_error[abi:ne190000](char const*)
+PUBLIC 9db0 0 std::__throw_bad_array_new_length([abi:ne190000], void)
+PUBLIC 9de4 0 __clang_call_terminate
+PUBLIC 9df4 0 geode::cast::traverseTypeinfoFor(void*, geode::cast::ClassTypeinfoType const*, char const*)
+PUBLIC 9eec 0 std::__ndk1::__function::__func<addScrollbar(cocos2d::CCNode*, float, cocos2d::CCNode*)::$_0, std::__ndk1::allocator<addScrollbar(cocos2d::CCNode*, float, cocos2d::CCNode*)::$_0>, void ()>::~__func()
+PUBLIC 9f34 0 std::__ndk1::__function::__func<addScrollbar(cocos2d::CCNode*, float, cocos2d::CCNode*)::$_0, std::__ndk1::allocator<addScrollbar(cocos2d::CCNode*, float, cocos2d::CCNode*)::$_0>, void ()>::~__func()
+PUBLIC 9f80 0 std::__ndk1::__function::__func<addScrollbar(cocos2d::CCNode*, float, cocos2d::CCNode*)::$_0, std::__ndk1::allocator<addScrollbar(cocos2d::CCNode*, float, cocos2d::CCNode*)::$_0>, void ()>::__clone() const
+PUBLIC a018 0 std::__ndk1::__function::__func<addScrollbar(cocos2d::CCNode*, float, cocos2d::CCNode*)::$_0, std::__ndk1::allocator<addScrollbar(cocos2d::CCNode*, float, cocos2d::CCNode*)::$_0>, void ()>::__clone(std::__ndk1::__function::__base<void ()>*) const
+PUBLIC a080 0 std::__ndk1::__function::__func<addScrollbar(cocos2d::CCNode*, float, cocos2d::CCNode*)::$_0, std::__ndk1::allocator<addScrollbar(cocos2d::CCNode*, float, cocos2d::CCNode*)::$_0>, void ()>::destroy()
+PUBLIC a0bc 0 std::__ndk1::__function::__func<addScrollbar(cocos2d::CCNode*, float, cocos2d::CCNode*)::$_0, std::__ndk1::allocator<addScrollbar(cocos2d::CCNode*, float, cocos2d::CCNode*)::$_0>, void ()>::destroy_deallocate()
+PUBLIC a0fc 0 std::__ndk1::__function::__func<addScrollbar(cocos2d::CCNode*, float, cocos2d::CCNode*)::$_0, std::__ndk1::allocator<addScrollbar(cocos2d::CCNode*, float, cocos2d::CCNode*)::$_0>, void ()>::operator()()
+PUBLIC a110 0 std::__ndk1::__function::__func<addScrollbar(cocos2d::CCNode*, float, cocos2d::CCNode*)::$_0, std::__ndk1::allocator<addScrollbar(cocos2d::CCNode*, float, cocos2d::CCNode*)::$_0>, void ()>::target(std::type_info const&) const
+PUBLIC a12c 0 std::__ndk1::__function::__func<addScrollbar(cocos2d::CCNode*, float, cocos2d::CCNode*)::$_0, std::__ndk1::allocator<addScrollbar(cocos2d::CCNode*, float, cocos2d::CCNode*)::$_0>, void ()>::target_type() const
+PUBLIC a138 0 std::__ndk1::__function::__func<AlphaUtils::ModifyLoad<MyScrollLayer>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}, std::__ndk1::allocator<AlphaUtils::ModifyLoad<MyScrollLayer>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}>, void (cocos2d::CCNode*)>::~__func()
+PUBLIC a13c 0 std::__ndk1::__function::__func<AlphaUtils::ModifyLoad<MyScrollLayer>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}, std::__ndk1::allocator<AlphaUtils::ModifyLoad<MyScrollLayer>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}>, void (cocos2d::CCNode*)>::__clone() const
+PUBLIC a160 0 std::__ndk1::__function::__func<AlphaUtils::ModifyLoad<MyScrollLayer>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}, std::__ndk1::allocator<AlphaUtils::ModifyLoad<MyScrollLayer>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}>, void (cocos2d::CCNode*)>::__clone(std::__ndk1::__function::__base<void (cocos2d::CCNode*)>*) const
+PUBLIC a170 0 std::__ndk1::__function::__func<AlphaUtils::ModifyLoad<MyScrollLayer>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}, std::__ndk1::allocator<AlphaUtils::ModifyLoad<MyScrollLayer>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}>, void (cocos2d::CCNode*)>::destroy()
+PUBLIC a174 0 std::__ndk1::__function::__func<AlphaUtils::ModifyLoad<MyScrollLayer>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}, std::__ndk1::allocator<AlphaUtils::ModifyLoad<MyScrollLayer>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}>, void (cocos2d::CCNode*)>::destroy_deallocate()
+PUBLIC a178 0 std::__ndk1::__function::__func<AlphaUtils::ModifyLoad<MyScrollLayer>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}, std::__ndk1::allocator<AlphaUtils::ModifyLoad<MyScrollLayer>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}>, void (cocos2d::CCNode*)>::operator()(cocos2d::CCNode*&&)
+PUBLIC a2a8 0 std::__ndk1::__function::__func<AlphaUtils::ModifyLoad<MyScrollLayer>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}, std::__ndk1::allocator<AlphaUtils::ModifyLoad<MyScrollLayer>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}>, void (cocos2d::CCNode*)>::target(std::type_info const&) const
+PUBLIC a2c4 0 std::__ndk1::__function::__func<AlphaUtils::ModifyLoad<MyScrollLayer>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}, std::__ndk1::allocator<AlphaUtils::ModifyLoad<MyScrollLayer>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}>, void (cocos2d::CCNode*)>::target_type() const
+PUBLIC a2d0 0 std::__ndk1::__function::__func<AlphaUtils::ModifyLoad<MyTableView>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}, std::__ndk1::allocator<AlphaUtils::ModifyLoad<MyTableView>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}>, void (cocos2d::CCNode*)>::~__func()
+PUBLIC a2d4 0 std::__ndk1::__function::__func<AlphaUtils::ModifyLoad<MyTableView>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}, std::__ndk1::allocator<AlphaUtils::ModifyLoad<MyTableView>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}>, void (cocos2d::CCNode*)>::__clone() const
+PUBLIC a2f8 0 std::__ndk1::__function::__func<AlphaUtils::ModifyLoad<MyTableView>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}, std::__ndk1::allocator<AlphaUtils::ModifyLoad<MyTableView>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}>, void (cocos2d::CCNode*)>::__clone(std::__ndk1::__function::__base<void (cocos2d::CCNode*)>*) const
+PUBLIC a308 0 std::__ndk1::__function::__func<AlphaUtils::ModifyLoad<MyTableView>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}, std::__ndk1::allocator<AlphaUtils::ModifyLoad<MyTableView>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}>, void (cocos2d::CCNode*)>::destroy()
+PUBLIC a30c 0 std::__ndk1::__function::__func<AlphaUtils::ModifyLoad<MyTableView>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}, std::__ndk1::allocator<AlphaUtils::ModifyLoad<MyTableView>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}>, void (cocos2d::CCNode*)>::destroy_deallocate()
+PUBLIC a310 0 std::__ndk1::__function::__func<AlphaUtils::ModifyLoad<MyTableView>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}, std::__ndk1::allocator<AlphaUtils::ModifyLoad<MyTableView>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}>, void (cocos2d::CCNode*)>::operator()(cocos2d::CCNode*&&)
+PUBLIC a420 0 std::__ndk1::__function::__func<AlphaUtils::ModifyLoad<MyTableView>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}, std::__ndk1::allocator<AlphaUtils::ModifyLoad<MyTableView>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}>, void (cocos2d::CCNode*)>::target(std::type_info const&) const
+PUBLIC a43c 0 std::__ndk1::__function::__func<AlphaUtils::ModifyLoad<MyTableView>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}, std::__ndk1::allocator<AlphaUtils::ModifyLoad<MyTableView>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}>, void (cocos2d::CCNode*)>::target_type() const
+PUBLIC a448 0 MyTableView::modify()::{lambda()#1}::~{lambda()#1}()
+PUBLIC a464 0 std::__ndk1::__function::__func<MyTableView::modify()::{lambda()#1}, std::__ndk1::allocator<MyTableView::modify()::{lambda()#1}>, void ()>::~__func()
+PUBLIC a494 0 std::__ndk1::__function::__func<MyTableView::modify()::{lambda()#1}, std::__ndk1::allocator<MyTableView::modify()::{lambda()#1}>, void ()>::~__func()
+PUBLIC a4d0 0 std::__ndk1::__function::__func<MyTableView::modify()::{lambda()#1}, std::__ndk1::allocator<MyTableView::modify()::{lambda()#1}>, void ()>::__clone() const
+PUBLIC a528 0 std::__ndk1::__function::__func<MyTableView::modify()::{lambda()#1}, std::__ndk1::allocator<MyTableView::modify()::{lambda()#1}>, void ()>::__clone(std::__ndk1::__function::__base<void ()>*) const
+PUBLIC a544 0 std::__ndk1::__function::__func<MyTableView::modify()::{lambda()#1}, std::__ndk1::allocator<MyTableView::modify()::{lambda()#1}>, void ()>::destroy()
+PUBLIC a564 0 std::__ndk1::__function::__func<MyTableView::modify()::{lambda()#1}, std::__ndk1::allocator<MyTableView::modify()::{lambda()#1}>, void ()>::destroy_deallocate()
+PUBLIC a594 0 std::__ndk1::__function::__func<MyTableView::modify()::{lambda()#1}, std::__ndk1::allocator<MyTableView::modify()::{lambda()#1}>, void ()>::operator()()
+PUBLIC a5ec 0 std::__ndk1::__function::__func<MyTableView::modify()::{lambda()#1}, std::__ndk1::allocator<MyTableView::modify()::{lambda()#1}>, void ()>::target(std::type_info const&) const
+PUBLIC a608 0 std::__ndk1::__function::__func<MyTableView::modify()::{lambda()#1}, std::__ndk1::allocator<MyTableView::modify()::{lambda()#1}>, void ()>::target_type() const
+PUBLIC a614 0 std::__ndk1::__function::__base<void (cocos2d::CCNode*)>::~__base()
+PUBLIC a618 0 std::__ndk1::__function::__func<AlphaUtils::ModifyLoad<MyScrollBar>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}, std::__ndk1::allocator<AlphaUtils::ModifyLoad<MyScrollBar>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}>, void (cocos2d::CCNode*)>::~__func()
+PUBLIC a61c 0 std::__ndk1::__function::__func<AlphaUtils::ModifyLoad<MyScrollBar>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}, std::__ndk1::allocator<AlphaUtils::ModifyLoad<MyScrollBar>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}>, void (cocos2d::CCNode*)>::__clone() const
+PUBLIC a640 0 std::__ndk1::__function::__func<AlphaUtils::ModifyLoad<MyScrollBar>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}, std::__ndk1::allocator<AlphaUtils::ModifyLoad<MyScrollBar>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}>, void (cocos2d::CCNode*)>::__clone(std::__ndk1::__function::__base<void (cocos2d::CCNode*)>*) const
+PUBLIC a650 0 std::__ndk1::__function::__func<AlphaUtils::ModifyLoad<MyScrollBar>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}, std::__ndk1::allocator<AlphaUtils::ModifyLoad<MyScrollBar>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}>, void (cocos2d::CCNode*)>::destroy()
+PUBLIC a654 0 std::__ndk1::__function::__func<AlphaUtils::ModifyLoad<MyScrollBar>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}, std::__ndk1::allocator<AlphaUtils::ModifyLoad<MyScrollBar>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}>, void (cocos2d::CCNode*)>::destroy_deallocate()
+PUBLIC a658 0 std::__ndk1::__function::__func<AlphaUtils::ModifyLoad<MyScrollBar>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}, std::__ndk1::allocator<AlphaUtils::ModifyLoad<MyScrollBar>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}>, void (cocos2d::CCNode*)>::operator()(cocos2d::CCNode*&&)
+PUBLIC a9d0 0 std::__ndk1::__function::__func<AlphaUtils::ModifyLoad<MyScrollBar>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}, std::__ndk1::allocator<AlphaUtils::ModifyLoad<MyScrollBar>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}>, void (cocos2d::CCNode*)>::target(std::type_info const&) const
+PUBLIC a9ec 0 std::__ndk1::__function::__func<AlphaUtils::ModifyLoad<MyScrollBar>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}, std::__ndk1::allocator<AlphaUtils::ModifyLoad<MyScrollBar>::ModifyLoad(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)::{lambda(cocos2d::CCNode*)#1}>, void (cocos2d::CCNode*)>::target_type() const
+PUBLIC a9f8 0 geode::modifier::FieldContainer::getField(unsigned long)
+PUBLIC adc8 0 geode::modifier::FieldContainer::setField(unsigned long, unsigned long, std::__ndk1::function<void (void*)>)
+PUBLIC aed4 0 geode::modifier::FieldIntermediate<MyTableView, cocos2d::CCNode>::fieldDestructor(void*)
+PUBLIC af14 0 std::__ndk1::vector<void*, std::__ndk1::allocator<void*> >::__throw_length_error[abi:ne190000]() const
+PUBLIC af28 0 std::__ndk1::vector<std::__ndk1::function<void (void*)>, std::__ndk1::allocator<std::__ndk1::function<void (void*)> > >::__throw_length_error[abi:ne190000]() const
+PUBLIC af3c 0 std::__ndk1::vector<void*, std::__ndk1::allocator<void*> >::__throw_out_of_range[abi:ne190000]() const
+PUBLIC af48 0 std::__ndk1::__throw_out_of_range[abi:ne190000](char const*)
+PUBLIC af90 0 std::out_of_range::out_of_range[abi:ne190000](char const*)
+PUBLIC afc8 0 std::__ndk1::vector<std::__ndk1::function<void (void*)>, std::__ndk1::allocator<std::__ndk1::function<void (void*)> > >::__throw_out_of_range[abi:ne190000]() const
+PUBLIC afd4 0 std::__ndk1::__function::__base<void (void*)>::~__base()
+PUBLIC afd8 0 std::__ndk1::__function::__func<void (*)(void*), std::__ndk1::allocator<void (*)(void*)>, void (void*)>::~__func()
+PUBLIC afdc 0 std::__ndk1::__function::__func<void (*)(void*), std::__ndk1::allocator<void (*)(void*)>, void (void*)>::__clone() const
+PUBLIC b014 0 std::__ndk1::__function::__func<void (*)(void*), std::__ndk1::allocator<void (*)(void*)>, void (void*)>::__clone(std::__ndk1::__function::__base<void (void*)>*) const
+PUBLIC b02c 0 std::__ndk1::__function::__func<void (*)(void*), std::__ndk1::allocator<void (*)(void*)>, void (void*)>::destroy()
+PUBLIC b030 0 std::__ndk1::__function::__func<void (*)(void*), std::__ndk1::allocator<void (*)(void*)>, void (void*)>::destroy_deallocate()
+PUBLIC b034 0 std::__ndk1::__function::__func<void (*)(void*), std::__ndk1::allocator<void (*)(void*)>, void (void*)>::operator()(void*&&)
+PUBLIC b044 0 std::__ndk1::__function::__func<void (*)(void*), std::__ndk1::allocator<void (*)(void*)>, void (void*)>::target(std::type_info const&) const
+PUBLIC b060 0 std::__ndk1::__function::__func<void (*)(void*), std::__ndk1::allocator<void (*)(void*)>, void (void*)>::target_type() const
+PUBLIC b06c 0 geode::modifier::FieldIntermediate<MyScrollLayer, cocos2d::CCNode>::fieldDestructor(void*)
+PUBLIC m b0ac 0 geodeImplicitEntry
+PUBLIC b0f0 0 <.plt ELF section in user95401.scrollbar_everywhere.android64.so>
+STACK CFI INIT 5750 10 .cfa: sp 0 +
+STACK CFI INIT 5760 8 .cfa: sp 0 +
+STACK CFI INIT 5768 8 .cfa: sp 0 +
+STACK CFI INIT 5770 14 .cfa: sp 0 +
+STACK CFI INIT 5784 1c .cfa: sp 0 +
+STACK CFI INIT 57a0 10 .cfa: sp 0 +
+STACK CFI INIT 57b0 134 .cfa: sp 0 +
+STACK CFI INIT 58e4 84 .cfa: sp 0 +
+STACK CFI INIT 5968 f4 .cfa: sp 0 +
+STACK CFI INIT 5a5c a8 .cfa: sp 0 +
+STACK CFI INIT 5b04 7c .cfa: sp 0 +
+STACK CFI INIT 5b80 14 .cfa: sp 0 +
+STACK CFI INIT 5b94 40 .cfa: sp 0 +
+STACK CFI INIT 5bd4 28 .cfa: sp 0 +
+STACK CFI INIT 5bfc 190 .cfa: sp 0 +
+STACK CFI INIT 5d8c 2c8 .cfa: sp 0 +
+STACK CFI INIT 6054 8 .cfa: sp 0 +
+STACK CFI INIT 605c 8 .cfa: sp 0 +
+STACK CFI INIT 6064 44 .cfa: sp 0 +
+STACK CFI INIT 60a8 e8 .cfa: sp 0 +
+STACK CFI INIT 6190 e8 .cfa: sp 0 +
+STACK CFI INIT 6278 14 .cfa: sp 0 +
+STACK CFI INIT 628c 10 .cfa: sp 0 +
+STACK CFI INIT 629c 10 .cfa: sp 0 +
+STACK CFI INIT 62ac f0 .cfa: sp 0 +
+STACK CFI INIT 639c 44 .cfa: sp 0 +
+STACK CFI INIT 63e0 c .cfa: sp 0 +
+STACK CFI INIT 63ec c .cfa: sp 0 +
+STACK CFI INIT 63f8 2c .cfa: sp 0 +
+STACK CFI INIT 6424 23c .cfa: sp 0 +
+STACK CFI INIT 6660 c .cfa: sp 0 +
+STACK CFI INIT 666c 120 .cfa: sp 0 +
+STACK CFI INIT 678c 494 .cfa: sp 0 +
+STACK CFI INIT 6c20 b78 .cfa: sp 0 +
+STACK CFI INIT 7798 134 .cfa: sp 0 +
+STACK CFI INIT 78cc 210 .cfa: sp 0 +
+STACK CFI INIT 7adc 38c .cfa: sp 0 +
+STACK CFI INIT 7e68 1c8 .cfa: sp 0 +
+STACK CFI INIT 8030 9c4 .cfa: sp 0 +
+STACK CFI INIT 89f4 2d4 .cfa: sp 0 +
+STACK CFI INIT 8cc8 130 .cfa: sp 0 +
+STACK CFI INIT 8df8 120 .cfa: sp 0 +
+STACK CFI INIT 8f18 1c8 .cfa: sp 0 +
+STACK CFI INIT 90e0 168 .cfa: sp 0 +
+STACK CFI INIT 9248 fc .cfa: sp 0 +
+STACK CFI INIT 9344 30 .cfa: sp 0 +
+STACK CFI INIT 9d80 30 .cfa: sp 0 +
+STACK CFI 9d84 .cfa: sp 32 +
+STACK CFI 9d8c .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 9da4 .cfa: sp 32 +
+STACK CFI 9dac .cfa: sp 0 +
+STACK CFI INIT 9db0 34 .cfa: sp 0 +
+STACK CFI 9db4 .cfa: sp 32 +
+STACK CFI 9dbc .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI INIT 9de4 10 .cfa: sp 0 +
+STACK CFI 9de8 .cfa: sp 16 +
+STACK CFI 9dec .cfa: x29 16 + .ra: .cfa -8 + ^ x29: .cfa -16 + ^
+STACK CFI INIT 9df4 f8 .cfa: sp 0 +
+STACK CFI 9df8 .cfa: sp 64 +
+STACK CFI 9e08 .cfa: x29 64 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -48 + ^ .ra: .cfa -56 + ^ x29: .cfa -64 + ^
+STACK CFI 9e64 .cfa: sp 64 +
+STACK CFI 9e74 .cfa: sp 0 +
+STACK CFI 9e78 .cfa: x29 64 +
+STACK CFI 9e94 .cfa: sp 64 +
+STACK CFI 9ea4 .cfa: sp 0 +
+STACK CFI 9ea8 .cfa: x29 64 +
+STACK CFI 9ed8 .cfa: sp 64 +
+STACK CFI 9ee8 .cfa: sp 0 +
+STACK CFI INIT a0fc 14 .cfa: sp 0 +
+STACK CFI INIT a110 1c .cfa: sp 0 +
+STACK CFI INIT a12c c .cfa: sp 0 +
+STACK CFI INIT a138 4 .cfa: sp 0 +
+STACK CFI INIT a13c 24 .cfa: sp 0 +
+STACK CFI a140 .cfa: sp 16 +
+STACK CFI a144 .cfa: x29 16 + .ra: .cfa -8 + ^ x29: .cfa -16 + ^
+STACK CFI a158 .cfa: sp 16 +
+STACK CFI a15c .cfa: sp 0 +
+STACK CFI INIT a160 10 .cfa: sp 0 +
+STACK CFI INIT a170 4 .cfa: sp 0 +
+STACK CFI INIT a174 4 .cfa: sp 0 +
+STACK CFI INIT a2a8 1c .cfa: sp 0 +
+STACK CFI INIT a2c4 c .cfa: sp 0 +
+STACK CFI INIT a2d0 4 .cfa: sp 0 +
+STACK CFI INIT a2d4 24 .cfa: sp 0 +
+STACK CFI a2d8 .cfa: sp 16 +
+STACK CFI a2dc .cfa: x29 16 + .ra: .cfa -8 + ^ x29: .cfa -16 + ^
+STACK CFI a2f0 .cfa: sp 16 +
+STACK CFI a2f4 .cfa: sp 0 +
+STACK CFI INIT a2f8 10 .cfa: sp 0 +
+STACK CFI INIT a308 4 .cfa: sp 0 +
+STACK CFI INIT a30c 4 .cfa: sp 0 +
+STACK CFI INIT a420 1c .cfa: sp 0 +
+STACK CFI INIT a43c c .cfa: sp 0 +
+STACK CFI INIT a528 1c .cfa: sp 0 +
+STACK CFI INIT a594 58 .cfa: sp 0 +
+STACK CFI a598 .cfa: sp 32 +
+STACK CFI a5a0 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI a5d4 .cfa: sp 32 +
+STACK CFI a5dc .cfa: sp 0 +
+STACK CFI a5e0 .cfa: sp 32 +
+STACK CFI a5e8 .cfa: sp 0 +
+STACK CFI INIT a5ec 1c .cfa: sp 0 +
+STACK CFI INIT a608 c .cfa: sp 0 +
+STACK CFI INIT a614 4 .cfa: sp 0 +
+STACK CFI INIT a618 4 .cfa: sp 0 +
+STACK CFI INIT a61c 24 .cfa: sp 0 +
+STACK CFI a620 .cfa: sp 16 +
+STACK CFI a624 .cfa: x29 16 + .ra: .cfa -8 + ^ x29: .cfa -16 + ^
+STACK CFI a638 .cfa: sp 16 +
+STACK CFI a63c .cfa: sp 0 +
+STACK CFI INIT a640 10 .cfa: sp 0 +
+STACK CFI INIT a650 4 .cfa: sp 0 +
+STACK CFI INIT a654 4 .cfa: sp 0 +
+STACK CFI INIT a9d0 1c .cfa: sp 0 +
+STACK CFI INIT a9ec c .cfa: sp 0 +
+STACK CFI INIT af14 14 .cfa: sp 0 +
+STACK CFI af18 .cfa: sp 16 +
+STACK CFI af1c .cfa: x29 16 + .ra: .cfa -8 + ^ x29: .cfa -16 + ^
+STACK CFI INIT af28 14 .cfa: sp 0 +
+STACK CFI af2c .cfa: sp 16 +
+STACK CFI af30 .cfa: x29 16 + .ra: .cfa -8 + ^ x29: .cfa -16 + ^
+STACK CFI INIT af3c c .cfa: sp 0 +
+STACK CFI af40 .cfa: sp 16 +
+STACK CFI af44 .cfa: x29 16 + .ra: .cfa -8 + ^ x29: .cfa -16 + ^
+STACK CFI INIT af90 38 .cfa: sp 0 +
+STACK CFI af94 .cfa: sp 32 +
+STACK CFI af9c .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI afbc .cfa: sp 32 +
+STACK CFI afc4 .cfa: sp 0 +
+STACK CFI INIT afc8 c .cfa: sp 0 +
+STACK CFI afcc .cfa: sp 16 +
+STACK CFI afd0 .cfa: x29 16 + .ra: .cfa -8 + ^ x29: .cfa -16 + ^
+STACK CFI INIT afd4 4 .cfa: sp 0 +
+STACK CFI INIT afd8 4 .cfa: sp 0 +
+STACK CFI INIT afdc 38 .cfa: sp 0 +
+STACK CFI afe0 .cfa: sp 32 +
+STACK CFI afe8 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI b008 .cfa: sp 32 +
+STACK CFI b010 .cfa: sp 0 +
+STACK CFI INIT b014 18 .cfa: sp 0 +
+STACK CFI INIT b02c 4 .cfa: sp 0 +
+STACK CFI INIT b030 4 .cfa: sp 0 +
+STACK CFI INIT b034 10 .cfa: sp 0 +
+STACK CFI INIT b044 1c .cfa: sp 0 +
+STACK CFI INIT b060 c .cfa: sp 0 +
+STACK CFI INIT b0ac 3c .cfa: sp 0 +
+STACK CFI b0b0 .cfa: sp 32 +
+STACK CFI b0b8 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI b0c4 .cfa: sp 32 +
+STACK CFI b0cc .cfa: sp 0 +
+STACK CFI b0d0 .cfa: x29 32 +
+STACK CFI b0dc .cfa: sp 32 +
+STACK CFI b0e4 .cfa: sp 0 +
+STACK CFI INIT 94a0 3dc .cfa: sp 0 +
+STACK CFI 94a4 .cfa: sp 192 +
+STACK CFI 94c0 .cfa: x29 64 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ .ra: .cfa -56 + ^ x29: .cfa -64 + ^ v8: .cfa -72 + ^ v9: .cfa -80 + ^ v10: .cfa -96 + ^
+STACK CFI 9548 .cfa: sp 192 +
+STACK CFI 9564 .cfa: sp 0 +
+STACK CFI 9568 .cfa: x29 64 +
+STACK CFI INIT 987c 1c .cfa: sp 0 +
+STACK CFI 9880 .cfa: sp 16 +
+STACK CFI 9884 .cfa: x29 16 + .ra: .cfa -8 + ^ x29: .cfa -16 + ^
+STACK CFI 988c .cfa: sp 16 +
+STACK CFI 9890 .cfa: sp 0 +
+STACK CFI 9894 .cfa: x29 16 +
+STACK CFI INIT 9898 3c .cfa: sp 0 +
+STACK CFI 989c .cfa: sp 32 +
+STACK CFI 98a4 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 98c0 .cfa: sp 32 +
+STACK CFI 98c8 .cfa: sp 0 +
+STACK CFI 98cc .cfa: x29 32 +
+STACK CFI INIT 98d4 17c .cfa: sp 0 +
+STACK CFI 98d8 .cfa: sp 128 +
+STACK CFI 98e4 .cfa: x29 32 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 99cc .cfa: sp 128 +
+STACK CFI 99d8 .cfa: sp 0 +
+STACK CFI 99dc .cfa: x29 32 +
+STACK CFI INIT 9a50 168 .cfa: sp 0 +
+STACK CFI 9a54 .cfa: sp 128 +
+STACK CFI 9a60 .cfa: x29 32 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 9b34 .cfa: sp 128 +
+STACK CFI 9b40 .cfa: sp 0 +
+STACK CFI 9b44 .cfa: x29 32 +
+STACK CFI INIT 9bb8 178 .cfa: sp 0 +
+STACK CFI 9bbc .cfa: sp 128 +
+STACK CFI 9bc8 .cfa: x29 32 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 9cac .cfa: sp 128 +
+STACK CFI 9cb8 .cfa: sp 0 +
+STACK CFI 9cbc .cfa: x29 32 +
+STACK CFI INIT 9d30 50 .cfa: sp 0 +
+STACK CFI 9d34 .cfa: sp 32 +
+STACK CFI 9d3c .cfa: x29 32 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI INIT 9eec 48 .cfa: sp 0 +
+STACK CFI 9ef0 .cfa: sp 32 +
+STACK CFI 9ef8 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 9f20 .cfa: sp 32 +
+STACK CFI 9f28 .cfa: sp 0 +
+STACK CFI 9f2c .cfa: x29 32 +
+STACK CFI INIT 9f34 4c .cfa: sp 0 +
+STACK CFI 9f38 .cfa: sp 32 +
+STACK CFI 9f40 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 9f6c .cfa: sp 32 +
+STACK CFI 9f74 .cfa: sp 0 +
+STACK CFI 9f78 .cfa: x29 32 +
+STACK CFI INIT 9f80 98 .cfa: sp 0 +
+STACK CFI 9f84 .cfa: sp 48 +
+STACK CFI 9f90 .cfa: x29 48 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -32 + ^ .ra: .cfa -40 + ^ x29: .cfa -48 + ^
+STACK CFI 9fd8 .cfa: sp 48 +
+STACK CFI 9fe4 .cfa: sp 0 +
+STACK CFI 9fe8 .cfa: x29 48 +
+STACK CFI INIT a018 68 .cfa: sp 0 +
+STACK CFI a01c .cfa: sp 32 +
+STACK CFI a024 .cfa: x29 32 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI a05c .cfa: sp 32 +
+STACK CFI a064 .cfa: sp 0 +
+STACK CFI a068 .cfa: x29 32 +
+STACK CFI INIT a080 3c .cfa: sp 0 +
+STACK CFI a084 .cfa: sp 32 +
+STACK CFI a08c .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI a0a8 .cfa: sp 32 +
+STACK CFI a0b0 .cfa: sp 0 +
+STACK CFI a0b4 .cfa: x29 32 +
+STACK CFI INIT a0bc 40 .cfa: sp 0 +
+STACK CFI a0c0 .cfa: sp 32 +
+STACK CFI a0c8 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI a0e8 .cfa: sp 32 +
+STACK CFI a0f0 .cfa: sp 0 +
+STACK CFI a0f4 .cfa: x29 32 +
+STACK CFI INIT a178 130 .cfa: sp 0 +
+STACK CFI a17c .cfa: sp 144 +
+STACK CFI a18c .cfa: x29 48 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -32 + ^ .ra: .cfa -40 + ^ x29: .cfa -48 + ^
+STACK CFI a230 .cfa: sp 144 +
+STACK CFI a240 .cfa: sp 0 +
+STACK CFI a244 .cfa: x29 48 +
+STACK CFI INIT a310 110 .cfa: sp 0 +
+STACK CFI a314 .cfa: sp 112 +
+STACK CFI a324 .cfa: x29 48 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -32 + ^ .ra: .cfa -40 + ^ x29: .cfa -48 + ^
+STACK CFI a3a4 .cfa: sp 112 +
+STACK CFI a3b4 .cfa: sp 0 +
+STACK CFI a3b8 .cfa: x29 48 +
+STACK CFI INIT a448 1c .cfa: sp 0 +
+STACK CFI a44c .cfa: sp 16 +
+STACK CFI a450 .cfa: x29 16 + .ra: .cfa -8 + ^ x29: .cfa -16 + ^
+STACK CFI a458 .cfa: sp 16 +
+STACK CFI a45c .cfa: sp 0 +
+STACK CFI a460 .cfa: x29 16 +
+STACK CFI INIT a464 30 .cfa: sp 0 +
+STACK CFI a468 .cfa: sp 16 +
+STACK CFI a46c .cfa: x29 16 + .ra: .cfa -8 + ^ x29: .cfa -16 + ^
+STACK CFI a488 .cfa: sp 16 +
+STACK CFI a48c .cfa: sp 0 +
+STACK CFI a490 .cfa: x29 16 +
+STACK CFI INIT a494 3c .cfa: sp 0 +
+STACK CFI a498 .cfa: sp 32 +
+STACK CFI a4a0 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI a4c0 .cfa: sp 32 +
+STACK CFI a4c8 .cfa: sp 0 +
+STACK CFI a4cc .cfa: x29 32 +
+STACK CFI INIT a4d0 58 .cfa: sp 0 +
+STACK CFI a4d4 .cfa: sp 32 +
+STACK CFI a4dc .cfa: x29 32 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI a508 .cfa: sp 32 +
+STACK CFI a510 .cfa: sp 0 +
+STACK CFI a514 .cfa: x29 32 +
+STACK CFI INIT a544 20 .cfa: sp 0 +
+STACK CFI a548 .cfa: sp 16 +
+STACK CFI a54c .cfa: x29 16 + .ra: .cfa -8 + ^ x29: .cfa -16 + ^
+STACK CFI a558 .cfa: sp 16 +
+STACK CFI a55c .cfa: sp 0 +
+STACK CFI a560 .cfa: x29 16 +
+STACK CFI INIT a564 30 .cfa: sp 0 +
+STACK CFI a568 .cfa: sp 32 +
+STACK CFI a570 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI a584 .cfa: sp 32 +
+STACK CFI a58c .cfa: sp 0 +
+STACK CFI a590 .cfa: x29 32 +
+STACK CFI INIT a658 378 .cfa: sp 0 +
+STACK CFI a65c .cfa: sp 128 +
+STACK CFI a670 .cfa: x29 64 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -48 + ^ .ra: .cfa -56 + ^ x29: .cfa -64 + ^
+STACK CFI a8b8 .cfa: sp 128 +
+STACK CFI a8cc .cfa: sp 0 +
+STACK CFI a8d0 .cfa: x29 64 +
+STACK CFI INIT a9f8 3d0 .cfa: sp 0 +
+STACK CFI a9fc .cfa: sp 176 +
+STACK CFI aa18 .cfa: x29 96 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ x25: .cfa -56 + ^ x26: .cfa -64 + ^ x27: .cfa -72 + ^ x28: .cfa -80 + ^ .ra: .cfa -88 + ^ x29: .cfa -96 + ^
+STACK CFI aa58 .cfa: sp 176 +
+STACK CFI aa74 .cfa: sp 0 +
+STACK CFI aa78 .cfa: x29 96 +
+STACK CFI INIT adc8 10c .cfa: sp 0 +
+STACK CFI adcc .cfa: sp 64 +
+STACK CFI addc .cfa: x29 64 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -48 + ^ .ra: .cfa -56 + ^ x29: .cfa -64 + ^
+STACK CFI aeb4 .cfa: sp 64 +
+STACK CFI aec4 .cfa: sp 0 +
+STACK CFI aec8 .cfa: x29 64 +
+STACK CFI INIT aed4 40 .cfa: sp 0 +
+STACK CFI aed8 .cfa: sp 32 +
+STACK CFI aee0 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI af04 .cfa: sp 32 +
+STACK CFI af0c .cfa: sp 0 +
+STACK CFI af10 .cfa: x29 32 +
+STACK CFI INIT af48 48 .cfa: sp 0 +
+STACK CFI af4c .cfa: sp 32 +
+STACK CFI af54 .cfa: x29 32 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI INIT b06c 40 .cfa: sp 0 +
+STACK CFI b070 .cfa: sp 32 +
+STACK CFI b078 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI b09c .cfa: sp 32 +
+STACK CFI b0a4 .cfa: sp 0 +
+STACK CFI b0a8 .cfa: x29 32 +
