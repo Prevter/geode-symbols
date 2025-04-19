@@ -1,0 +1,578 @@
+MODULE Linux arm64 55D9F5694935614D4BB76AC045B8A5940 colon.gold_user_coins.android64.so
+INFO CODE_ID 69F5D95535494D614BB76AC045B8A594032C7DD7
+INFO GENERATOR mozilla/dump_syms 2.3.4
+PUBLIC 7130 0 __on_dlclose
+PUBLIC 7140 0 __emutls_unregister_key
+PUBLIC 7148 0 __on_dlclose_late
+PUBLIC 7150 0 __atexit_handler_wrapper
+PUBLIC 7164 0 atexit
+PUBLIC 7180 0 pthread_atfork
+PUBLIC 7190 0 unwind_phase2
+PUBLIC 72c4 0 _Unwind_Resume
+PUBLIC 7348 0 unwind_phase2_forced
+PUBLIC m 743c 0 __unw_init_local
+PUBLIC m 74e4 0 __unw_get_reg
+PUBLIC 7560 0 __unw_step_stage2
+PUBLIC m 7574 0 __unw_get_proc_info
+PUBLIC m 75b4 0 __unw_resume
+PUBLIC 75dc 0 libunwind::CFI_Parser<libunwind::LocalAddressSpace>::decodeFDE(libunwind::LocalAddressSpace&, unsigned long, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::FDE_Info*, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::CIE_Info*, bool)
+PUBLIC 776c 0 libunwind::CFI_Parser<libunwind::LocalAddressSpace>::parseCIE(libunwind::LocalAddressSpace&, unsigned long, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::CIE_Info*)
+PUBLIC 7a34 0 libunwind::AbstractUnwindCursor::~AbstractUnwindCursor()
+PUBLIC 7a3c 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::~UnwindCursor()
+PUBLIC 7a44 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::validReg(int)
+PUBLIC 7a88 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::getReg(int)
+PUBLIC 7b70 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::setReg(int, unsigned long)
+PUBLIC 7c58 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::validFloatReg(int)
+PUBLIC 7c6c 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::getFloatReg(int)
+PUBLIC 7c7c 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::setFloatReg(int, double)
+PUBLIC 7c8c 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::step(bool)
+PUBLIC 7d7c 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::getInfo(unw_proc_info_t*)
+PUBLIC 7dc0 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::jumpto()
+PUBLIC 7dcc 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::isSignalFrame()
+PUBLIC 7dd8 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::getFunctionName(char*, unsigned long, unsigned long*)
+PUBLIC 7e04 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::setInfoBasedOnIPRegister(bool)
+PUBLIC 8040 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::getRegisterName(int)
+PUBLIC 804c 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::stepThroughSigReturn(libunwind::Registers_arm64&)
+PUBLIC 816c 0 libunwind::DwarfInstructions<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::stepWithDwarf(libunwind::LocalAddressSpace&, unsigned long, unsigned long, libunwind::Registers_arm64&, bool&, bool)
+PUBLIC 8600 0 libunwind::CFI_Parser<libunwind::LocalAddressSpace>::parseFDEInstructions(libunwind::LocalAddressSpace&, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::FDE_Info const&, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::CIE_Info const&, unsigned long, int, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::PrologInfo*)
+PUBLIC 9178 0 libunwind::DwarfInstructions<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::getCFA(libunwind::LocalAddressSpace&, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::PrologInfo const&, libunwind::Registers_arm64 const&)
+PUBLIC 92ac 0 libunwind::DwarfInstructions<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::getSavedRegister(libunwind::LocalAddressSpace&, libunwind::Registers_arm64 const&, unsigned long, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::RegisterLocation const&)
+PUBLIC 94bc 0 libunwind::LocalAddressSpace::getEncodedP(unsigned long&, unsigned long, unsigned char, unsigned long)
+PUBLIC 9848 0 libunwind::LocalAddressSpace::getULEB128(unsigned long&, unsigned long)
+PUBLIC 9a10 0 libunwind::DwarfInstructions<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::evaluateExpression(unsigned long, libunwind::LocalAddressSpace&, libunwind::Registers_arm64 const&, unsigned long)
+PUBLIC a3d4 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::getInfoFromDwarfSection(unsigned long, libunwind::UnwindInfoSections const&, unsigned int)
+PUBLIC a6a8 0 libunwind::findUnwindSectionsByPhdr(dl_phdr_info*, unsigned long, void*)
+PUBLIC a7d8 0 libunwind::EHHeaderParser<libunwind::LocalAddressSpace>::decodeEHHdr(libunwind::LocalAddressSpace&, unsigned long, unsigned long, libunwind::EHHeaderParser<libunwind::LocalAddressSpace>::EHHeaderInfo&)
+PUBLIC a8f8 0 libunwind::CFI_Parser<libunwind::LocalAddressSpace>::findFDE(libunwind::LocalAddressSpace&, unsigned long, unsigned long, unsigned long, unsigned long, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::FDE_Info*, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::CIE_Info*)
+PUBLIC aac0 0 libunwind::EHHeaderParser<libunwind::LocalAddressSpace>::findFDE(libunwind::LocalAddressSpace&, unsigned long, unsigned long, unsigned int, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::FDE_Info*, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::CIE_Info*)
+PUBLIC ac28 0 libunwind::EHHeaderParser<libunwind::LocalAddressSpace>::getTableEntrySize(unsigned char)
+PUBLIC ad24 0 libunwind::Registers_arm64::getRegisterName(int)
+PUBLIC ad54 0 __libunwind_Registers_arm64_jumpto
+PUBLIC m ade4 0 __unw_getcontext
+PUBLIC ae80 0 __aarch64_ldadd8_relax
+PUBLIC aeb0 0 init_have_lse_atomics
+PUBLIC af48 0 __init_cpu_features_constructor
+PUBLIC b1f4 0 __init_cpu_features
+PUBLIC b280 0 __aarch64_ldadd8_acq_rel
+PUBLIC b2b0 0 __cxx_global_var_init
+PUBLIC b6fc 0 __cxx_global_var_init.1
+PUBLIC bb48 0 __cxx_global_var_init.2
+PUBLIC bf94 0 __cxx_global_var_init.3
+PUBLIC c3e0 0 __cxx_global_var_init.4
+PUBLIC c82c 0 __cxx_global_var_init.5
+PUBLIC cc78 0 __cxx_global_var_init.6
+PUBLIC d0c4 0 __cxx_global_var_init.7
+PUBLIC d510 0 geode::modifier::ModifyBase<geode::modifier::ModifyDerive<hook24<(anonymous namespace)::hook24Parent>, MenuLayer> >::~ModifyBase()
+PUBLIC d528 0 geode::modifier::ModifyBase<geode::modifier::ModifyDerive<hook52<(anonymous namespace)::hook52Parent>, LoadingLayer> >::~ModifyBase()
+PUBLIC d540 0 geode::modifier::ModifyBase<geode::modifier::ModifyDerive<hook60<(anonymous namespace)::hook60Parent>, cocos2d::CCSprite> >::~ModifyBase()
+PUBLIC d558 0 geode::modifier::ModifyBase<geode::modifier::ModifyDerive<hook75<(anonymous namespace)::hook75Parent>, EndLevelLayer> >::~ModifyBase()
+PUBLIC d570 0 geode::modifier::ModifyBase<geode::modifier::ModifyDerive<hook104<(anonymous namespace)::hook104Parent>, PauseLayer> >::~ModifyBase()
+PUBLIC d588 0 geode::modifier::ModifyBase<geode::modifier::ModifyDerive<hook124<(anonymous namespace)::hook124Parent>, GameObject> >::~ModifyBase()
+PUBLIC d5a0 0 geode::modifier::ModifyBase<geode::modifier::ModifyDerive<hook137<(anonymous namespace)::hook137Parent>, EnhancedGameObject> >::~ModifyBase()
+PUBLIC d5b8 0 geode::modifier::ModifyBase<geode::modifier::ModifyDerive<hook149<(anonymous namespace)::hook149Parent>, EditorUI> >::~ModifyBase()
+PUBLIC d5d0 0 geode::modifier::ModifyDerive<hook24<(anonymous namespace)::hook24Parent>, MenuLayer>::apply()
+PUBLIC d8b4 0 std::__ndk1::shared_ptr<geode::Hook>::~shared_ptr[abi:ne190000]()
+PUBLIC d904 0 geode::impl::ResultData<geode::Hook*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >::~ResultData()
+PUBLIC d978 0 std::__ndk1::vector<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > >::~vector[abi:ne190000]()
+PUBLIC d9f4 0 geode::modifier::ModifyBase<geode::modifier::ModifyDerive<hook24<(anonymous namespace)::hook24Parent>, MenuLayer> >::apply()
+PUBLIC d9f8 0 __clang_call_terminate
+PUBLIC da08 0 _ZN5geode15UnwrapExceptionC2IRPNS_4HookEQsr4implE18IsStringStreamableIT_EEENS_4impl5OkTagEOS5_
+PUBLIC e124 0 std::__ndk1::__throw_bad_variant_access[abi:ne190000]()
+PUBLIC m e158 0 std::__ndk1::basic_stringstream<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >::~basic_stringstream()
+PUBLIC e1d8 0 geode::UnwrapException::~UnwrapException()
+PUBLIC e1fc 0 std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >::__throw_length_error[abi:ne190000]() const
+PUBLIC e210 0 std::__ndk1::__throw_length_error[abi:ne190000](char const*)
+PUBLIC e260 0 std::length_error::length_error[abi:ne190000](char const*)
+PUBLIC e290 0 std::__throw_bad_array_new_length([abi:ne190000], void)
+PUBLIC e2c4 0 std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >::__erase_external_with_move(unsigned long, unsigned long)
+PUBLIC e348 0 std::__ndk1::vector<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > >::__push_back_slow_path<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&>(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&)
+PUBLIC e4f4 0 std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >::__init_copy_ctor_external(char const*, unsigned long)
+PUBLIC e584 0 std::__ndk1::__split_buffer<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >&>::~__split_buffer()
+PUBLIC e5ec 0 std::__ndk1::vector<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > >::__throw_length_error[abi:ne190000]() const
+PUBLIC e600 0 std::__ndk1::__variant_detail::__visitation::__base::__dispatcher<(unsigned long)0>::__dispatch[abi:ne190000]<std::__ndk1::__variant_detail::__dtor<std::__ndk1::__variant_detail::__traits<geode::Hook*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, (std::__ndk1::__variant_detail::_Trait)1>::__destroy[abi:ne190000]()::{lambda(auto:1&)#1}, std::__ndk1::__variant_detail::__base<(std::__ndk1::__variant_detail::__traits<geode::Hook*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >)1, geode::Hook, std::__ndk1::allocator<char> >&>(std::__ndk1::__variant_detail::__dtor<std::__ndk1::__variant_detail::__traits<geode::Hook*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, (std::__ndk1::__variant_detail::_Trait)1>, std::__ndk1::__variant_detail::__base<(std::__ndk1::__variant_detail::__traits<geode::Hook*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >)1, geode::Hook, std::__ndk1::allocator<char> >&)
+PUBLIC e604 0 std::__ndk1::__variant_detail::__visitation::__base::__dispatcher<(unsigned long)1>::__dispatch[abi:ne190000]<std::__ndk1::__variant_detail::__dtor<std::__ndk1::__variant_detail::__traits<geode::Hook*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, (std::__ndk1::__variant_detail::_Trait)1>::__destroy[abi:ne190000]()::{lambda(auto:1&)#1}, std::__ndk1::__variant_detail::__base<(std::__ndk1::__variant_detail::__traits<geode::Hook*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >)1, geode::Hook, std::__ndk1::allocator<char> >&>(std::__ndk1::__variant_detail::__dtor<std::__ndk1::__variant_detail::__traits<geode::Hook*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, (std::__ndk1::__variant_detail::_Trait)1>, std::__ndk1::__variant_detail::__base<(std::__ndk1::__variant_detail::__traits<geode::Hook*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >)1, geode::Hook, std::__ndk1::allocator<char> >&)
+PUBLIC e618 0 std::__ndk1::__tree<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, std::__ndk1::__map_value_compare<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, std::__ndk1::less<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, true>, std::__ndk1::allocator<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> > > >::find<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&)
+PUBLIC e740 0 std::__ndk1::__tree<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, std::__ndk1::__map_value_compare<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, std::__ndk1::less<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, true>, std::__ndk1::allocator<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> > > >::erase(std::__ndk1::__tree_const_iterator<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, std::__ndk1::__tree_node<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, void*>*, long>)
+PUBLIC ebe4 0 std::__ndk1::__tree<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, std::__ndk1::__map_value_compare<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, std::__ndk1::less<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, true>, std::__ndk1::allocator<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> > > >::destroy(std::__ndk1::__tree_node<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, void*>*)
+PUBLIC ec68 0 geode::modifier::AsStaticFunction_init<hook24<(anonymous namespace)::hook24Parent>, bool (hook24<(anonymous namespace)::hook24Parent>::*)()>::Impl<bool (hook24<(anonymous namespace)::hook24Parent>::*)()>::function(hook24<(anonymous namespace)::hook24Parent>*)
+PUBLIC f440 0 geode::addresser::Addresser::addressOfVirtual<bool, MenuLayer, >(bool (MenuLayer::*)())
+PUBLIC f4e8 0 MenuLayer::MenuLayer(geode::ZeroConstructorType)
+PUBLIC f584 0 std::__ndk1::shared_ptr<tulip::hook::CallingConvention>::~shared_ptr[abi:ne190000]()
+PUBLIC f5d4 0 tulip::hook::HandlerMetadata::~HandlerMetadata()
+PUBLIC f638 0 geode::Mod::getSettingValue<bool>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >) const
+PUBLIC f760 0 geode::cast::traverseTypeinfoFor(void*, geode::cast::ClassTypeinfoType const*, char const*)
+PUBLIC f858 0 std::__ndk1::__tree<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, std::__ndk1::__map_value_compare<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, std::__ndk1::less<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, true>, std::__ndk1::allocator<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> > > >::__emplace_unique_key_args<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::piecewise_construct_t const&, std::__ndk1::tuple<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >&&>, std::__ndk1::tuple<> >(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::piecewise_construct_t const&, std::__ndk1::tuple<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >&&>, std::__ndk1::tuple<>)
+PUBLIC fb64 0 geode::modifier::ModifyDerive<hook52<(anonymous namespace)::hook52Parent>, LoadingLayer>::apply()
+PUBLIC fea0 0 geode::modifier::ModifyBase<geode::modifier::ModifyDerive<hook52<(anonymous namespace)::hook52Parent>, LoadingLayer> >::apply()
+PUBLIC fea4 0 geode::modifier::AsStaticFunction_init<hook52<(anonymous namespace)::hook52Parent>, bool (hook52<(anonymous namespace)::hook52Parent>::*)(bool)>::Impl<bool (hook52<(anonymous namespace)::hook52Parent>::*)(bool)>::function(hook52<(anonymous namespace)::hook52Parent>*, bool)
+PUBLIC feb0 0 geode::modifier::ModifyDerive<hook60<(anonymous namespace)::hook60Parent>, cocos2d::CCSprite>::apply()
+PUBLIC 10208 0 geode::modifier::ModifyBase<geode::modifier::ModifyDerive<hook60<(anonymous namespace)::hook60Parent>, cocos2d::CCSprite> >::apply()
+PUBLIC 1020c 0 geode::modifier::AsStaticFunction_setColor<hook60<(anonymous namespace)::hook60Parent>, void (hook60<(anonymous namespace)::hook60Parent>::*)(cocos2d::_ccColor3B const&)>::Impl<void (hook60<(anonymous namespace)::hook60Parent>::*)(cocos2d::_ccColor3B const&)>::function(hook60<(anonymous namespace)::hook60Parent>*, cocos2d::_ccColor3B const&)
+PUBLIC 10344 0 geode::addresser::Addresser::addressOfVirtual<void, cocos2d::CCSprite, cocos2d::_ccColor3B const&>(void (cocos2d::CCSprite::*)(cocos2d::_ccColor3B const&))
+PUBLIC 103ec 0 cocos2d::CCSprite::CCSprite(geode::ZeroConstructorType)
+PUBLIC 1046c 0 geode::modifier::ModifyDerive<hook75<(anonymous namespace)::hook75Parent>, EndLevelLayer>::apply()
+PUBLIC 10a2c 0 geode::modifier::ModifyBase<geode::modifier::ModifyDerive<hook75<(anonymous namespace)::hook75Parent>, EndLevelLayer> >::apply()
+PUBLIC 10a30 0 geode::modifier::AsStaticFunction_customSetup<hook75<(anonymous namespace)::hook75Parent>, void (hook75<(anonymous namespace)::hook75Parent>::*)()>::Impl<void (hook75<(anonymous namespace)::hook75Parent>::*)()>::function(hook75<(anonymous namespace)::hook75Parent>*)
+PUBLIC 10e18 0 geode::modifier::AsStaticFunction_coinEnterFinished<hook75<(anonymous namespace)::hook75Parent>, void (hook75<(anonymous namespace)::hook75Parent>::*)(cocos2d::CCPoint)>::Impl<void (hook75<(anonymous namespace)::hook75Parent>::*)(cocos2d::CCPoint)>::function(hook75<(anonymous namespace)::hook75Parent>*, cocos2d::CCPoint)
+PUBLIC 10ee0 0 geode::addresser::Addresser::addressOfVirtual<void, EndLevelLayer, >(void (EndLevelLayer::*)())
+PUBLIC 10f88 0 EndLevelLayer::EndLevelLayer(geode::ZeroConstructorType)
+PUBLIC 11018 0 geode::cocos::CCArrayExt<cocos2d::CCSprite*, cocos2d::CCSprite>::~CCArrayExt()
+PUBLIC 11034 0 geode::modifier::ModifyDerive<hook104<(anonymous namespace)::hook104Parent>, PauseLayer>::apply()
+PUBLIC 11340 0 geode::modifier::ModifyBase<geode::modifier::ModifyDerive<hook104<(anonymous namespace)::hook104Parent>, PauseLayer> >::apply()
+PUBLIC 11344 0 geode::modifier::AsStaticFunction_customSetup<hook104<(anonymous namespace)::hook104Parent>, void (hook104<(anonymous namespace)::hook104Parent>::*)()>::Impl<void (hook104<(anonymous namespace)::hook104Parent>::*)()>::function(hook104<(anonymous namespace)::hook104Parent>*)
+PUBLIC 11614 0 geode::addresser::Addresser::addressOfVirtual<void, PauseLayer, >(void (PauseLayer::*)())
+PUBLIC 116bc 0 PauseLayer::PauseLayer(geode::ZeroConstructorType)
+PUBLIC 11748 0 geode::cocos::CCArrayExt<cocos2d::CCNode*, cocos2d::CCNode>::~CCArrayExt()
+PUBLIC 11764 0 geode::modifier::ModifyDerive<hook124<(anonymous namespace)::hook124Parent>, GameObject>::apply()
+PUBLIC 11ac0 0 geode::modifier::ModifyBase<geode::modifier::ModifyDerive<hook124<(anonymous namespace)::hook124Parent>, GameObject> >::apply()
+PUBLIC 11ac4 0 geode::modifier::AsStaticFunction_playDestroyObjectAnim<hook124<(anonymous namespace)::hook124Parent>, void (hook124<(anonymous namespace)::hook124Parent>::*)(GJBaseGameLayer*)>::Impl<void (hook124<(anonymous namespace)::hook124Parent>::*)(GJBaseGameLayer*)>::function(hook124<(anonymous namespace)::hook124Parent>*, GJBaseGameLayer*)
+PUBLIC 11b04 0 geode::modifier::ModifyDerive<hook137<(anonymous namespace)::hook137Parent>, EnhancedGameObject>::apply()
+PUBLIC 11e24 0 geode::modifier::ModifyBase<geode::modifier::ModifyDerive<hook137<(anonymous namespace)::hook137Parent>, EnhancedGameObject> >::apply()
+PUBLIC 11e28 0 geode::modifier::AsStaticFunction_updateUserCoin<hook137<(anonymous namespace)::hook137Parent>, void (hook137<(anonymous namespace)::hook137Parent>::*)()>::Impl<void (hook137<(anonymous namespace)::hook137Parent>::*)()>::function(hook137<(anonymous namespace)::hook137Parent>*)
+PUBLIC 11e68 0 geode::modifier::ModifyDerive<hook149<(anonymous namespace)::hook149Parent>, EditorUI>::apply()
+PUBLIC 121c0 0 geode::modifier::ModifyBase<geode::modifier::ModifyDerive<hook149<(anonymous namespace)::hook149Parent>, EditorUI> >::apply()
+PUBLIC 121c4 0 geode::modifier::AsStaticFunction_onCreateObject<hook149<(anonymous namespace)::hook149Parent>, void (hook149<(anonymous namespace)::hook149Parent>::*)(int)>::Impl<void (hook149<(anonymous namespace)::hook149Parent>::*)(int)>::function(hook149<(anonymous namespace)::hook149Parent>*, int)
+PUBLIC 1226c 0 geode::getMod()
+PUBLIC m 122a8 0 geodeImplicitEntry
+PUBLIC 122f0 0 <.plt ELF section in colon.gold_user_coins.android64.so>
+STACK CFI INIT 7130 10 .cfa: sp 0 +
+STACK CFI INIT 7140 8 .cfa: sp 0 +
+STACK CFI INIT 7148 8 .cfa: sp 0 +
+STACK CFI INIT 7150 14 .cfa: sp 0 +
+STACK CFI INIT 7164 1c .cfa: sp 0 +
+STACK CFI INIT 7180 10 .cfa: sp 0 +
+STACK CFI INIT 7190 134 .cfa: sp 0 +
+STACK CFI INIT 72c4 84 .cfa: sp 0 +
+STACK CFI INIT 7348 f4 .cfa: sp 0 +
+STACK CFI INIT 743c a8 .cfa: sp 0 +
+STACK CFI INIT 74e4 7c .cfa: sp 0 +
+STACK CFI INIT 7560 14 .cfa: sp 0 +
+STACK CFI INIT 7574 40 .cfa: sp 0 +
+STACK CFI INIT 75b4 28 .cfa: sp 0 +
+STACK CFI INIT 75dc 190 .cfa: sp 0 +
+STACK CFI INIT 776c 2c8 .cfa: sp 0 +
+STACK CFI INIT 7a34 8 .cfa: sp 0 +
+STACK CFI INIT 7a3c 8 .cfa: sp 0 +
+STACK CFI INIT 7a44 44 .cfa: sp 0 +
+STACK CFI INIT 7a88 e8 .cfa: sp 0 +
+STACK CFI INIT 7b70 e8 .cfa: sp 0 +
+STACK CFI INIT 7c58 14 .cfa: sp 0 +
+STACK CFI INIT 7c6c 10 .cfa: sp 0 +
+STACK CFI INIT 7c7c 10 .cfa: sp 0 +
+STACK CFI INIT 7c8c f0 .cfa: sp 0 +
+STACK CFI INIT 7d7c 44 .cfa: sp 0 +
+STACK CFI INIT 7dc0 c .cfa: sp 0 +
+STACK CFI INIT 7dcc c .cfa: sp 0 +
+STACK CFI INIT 7dd8 2c .cfa: sp 0 +
+STACK CFI INIT 7e04 23c .cfa: sp 0 +
+STACK CFI INIT 8040 c .cfa: sp 0 +
+STACK CFI INIT 804c 120 .cfa: sp 0 +
+STACK CFI INIT 816c 494 .cfa: sp 0 +
+STACK CFI INIT 8600 b78 .cfa: sp 0 +
+STACK CFI INIT 9178 134 .cfa: sp 0 +
+STACK CFI INIT 92ac 210 .cfa: sp 0 +
+STACK CFI INIT 94bc 38c .cfa: sp 0 +
+STACK CFI INIT 9848 1c8 .cfa: sp 0 +
+STACK CFI INIT 9a10 9c4 .cfa: sp 0 +
+STACK CFI INIT a3d4 2d4 .cfa: sp 0 +
+STACK CFI INIT a6a8 130 .cfa: sp 0 +
+STACK CFI INIT a7d8 120 .cfa: sp 0 +
+STACK CFI INIT a8f8 1c8 .cfa: sp 0 +
+STACK CFI INIT aac0 168 .cfa: sp 0 +
+STACK CFI INIT ac28 fc .cfa: sp 0 +
+STACK CFI INIT ad24 30 .cfa: sp 0 +
+STACK CFI INIT ae80 30 .cfa: sp 0 +
+STACK CFI INIT aeb0 98 .cfa: sp 0 +
+STACK CFI INIT af48 2ac .cfa: sp 0 +
+STACK CFI INIT b1f4 8c .cfa: sp 0 +
+STACK CFI INIT b280 30 .cfa: sp 0 +
+STACK CFI INIT d510 18 .cfa: sp 0 +
+STACK CFI INIT d528 18 .cfa: sp 0 +
+STACK CFI INIT d540 18 .cfa: sp 0 +
+STACK CFI INIT d558 18 .cfa: sp 0 +
+STACK CFI INIT d570 18 .cfa: sp 0 +
+STACK CFI INIT d588 18 .cfa: sp 0 +
+STACK CFI INIT d5a0 18 .cfa: sp 0 +
+STACK CFI INIT d5b8 18 .cfa: sp 0 +
+STACK CFI INIT d8b4 50 .cfa: sp 0 +
+STACK CFI d8b8 .cfa: sp 32 +
+STACK CFI d8c0 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI d8d8 .cfa: sp 32 +
+STACK CFI d8e0 .cfa: sp 0 +
+STACK CFI d8e4 .cfa: x29 32 +
+STACK CFI d8f8 .cfa: sp 32 +
+STACK CFI d900 .cfa: sp 0 +
+STACK CFI INIT d978 7c .cfa: sp 0 +
+STACK CFI d97c .cfa: sp 48 +
+STACK CFI d988 .cfa: x29 48 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -32 + ^ .ra: .cfa -40 + ^ x29: .cfa -48 + ^
+STACK CFI d9d4 .cfa: sp 48 +
+STACK CFI d9e0 .cfa: sp 0 +
+STACK CFI d9e4 .cfa: sp 48 +
+STACK CFI d9f0 .cfa: sp 0 +
+STACK CFI INIT d9f4 4 .cfa: sp 0 +
+STACK CFI INIT d9f8 10 .cfa: sp 0 +
+STACK CFI d9fc .cfa: sp 16 +
+STACK CFI da00 .cfa: x29 16 + .ra: .cfa -8 + ^ x29: .cfa -16 + ^
+STACK CFI INIT e124 34 .cfa: sp 0 +
+STACK CFI e128 .cfa: sp 16 +
+STACK CFI e12c .cfa: x29 16 + .ra: .cfa -8 + ^ x29: .cfa -16 + ^
+STACK CFI INIT e158 80 .cfa: sp 0 +
+STACK CFI e15c .cfa: sp 48 +
+STACK CFI e168 .cfa: x29 48 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -32 + ^ .ra: .cfa -40 + ^ x29: .cfa -48 + ^
+STACK CFI e1c8 .cfa: sp 48 +
+STACK CFI e1d4 .cfa: sp 0 +
+STACK CFI INIT e1d8 24 .cfa: sp 0 +
+STACK CFI e1dc .cfa: sp 32 +
+STACK CFI e1e4 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI e1f0 .cfa: sp 32 +
+STACK CFI e1f8 .cfa: sp 0 +
+STACK CFI INIT e1fc 14 .cfa: sp 0 +
+STACK CFI e200 .cfa: sp 16 +
+STACK CFI e204 .cfa: x29 16 + .ra: .cfa -8 + ^ x29: .cfa -16 + ^
+STACK CFI INIT e260 30 .cfa: sp 0 +
+STACK CFI e264 .cfa: sp 32 +
+STACK CFI e26c .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI e284 .cfa: sp 32 +
+STACK CFI e28c .cfa: sp 0 +
+STACK CFI INIT e290 34 .cfa: sp 0 +
+STACK CFI e294 .cfa: sp 32 +
+STACK CFI e29c .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI INIT e2c4 84 .cfa: sp 0 +
+STACK CFI e2cc .cfa: sp 48 +
+STACK CFI e2d8 .cfa: x29 48 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -32 + ^ .ra: .cfa -40 + ^ x29: .cfa -48 + ^
+STACK CFI e338 .cfa: sp 48 +
+STACK CFI e344 .cfa: sp 0 +
+STACK CFI INIT e4f4 90 .cfa: sp 0 +
+STACK CFI e4f8 .cfa: sp 48 +
+STACK CFI e504 .cfa: x29 48 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ .ra: .cfa -40 + ^ x29: .cfa -48 + ^
+STACK CFI e51c .cfa: sp 48 +
+STACK CFI e528 .cfa: sp 0 +
+STACK CFI e52c .cfa: x29 48 +
+STACK CFI e570 .cfa: sp 48 +
+STACK CFI e57c .cfa: sp 0 +
+STACK CFI e580 .cfa: x29 48 +
+STACK CFI INIT e584 68 .cfa: sp 0 +
+STACK CFI e588 .cfa: sp 32 +
+STACK CFI e590 .cfa: x29 32 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI e5a8 .cfa: sp 32 +
+STACK CFI e5b0 .cfa: sp 0 +
+STACK CFI e5b4 .cfa: x29 32 +
+STACK CFI e5e0 .cfa: sp 32 +
+STACK CFI e5e8 .cfa: sp 0 +
+STACK CFI INIT e5ec 14 .cfa: sp 0 +
+STACK CFI e5f0 .cfa: sp 16 +
+STACK CFI e5f4 .cfa: x29 16 + .ra: .cfa -8 + ^ x29: .cfa -16 + ^
+STACK CFI INIT e600 4 .cfa: sp 0 +
+STACK CFI INIT e604 14 .cfa: sp 0 +
+STACK CFI INIT e618 128 .cfa: sp 0 +
+STACK CFI e61c .cfa: sp 64 +
+STACK CFI e62c .cfa: x29 64 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ .ra: .cfa -56 + ^ x29: .cfa -64 + ^
+STACK CFI e72c .cfa: sp 64 +
+STACK CFI e73c .cfa: sp 0 +
+STACK CFI INIT e740 4a4 .cfa: sp 0 +
+STACK CFI e744 .cfa: sp 32 +
+STACK CFI e74c .cfa: x29 32 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI eb2c .cfa: sp 32 +
+STACK CFI eb34 .cfa: sp 0 +
+STACK CFI eb38 .cfa: x29 32 +
+STACK CFI INIT ebe4 84 .cfa: sp 0 +
+STACK CFI ebec .cfa: sp 32 +
+STACK CFI ebf4 .cfa: x29 32 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI ec34 .cfa: sp 32 +
+STACK CFI ec3c .cfa: sp 0 +
+STACK CFI ec44 .cfa: x29 32 +
+STACK CFI INIT f4e8 9c .cfa: sp 0 +
+STACK CFI INIT f584 50 .cfa: sp 0 +
+STACK CFI f588 .cfa: sp 32 +
+STACK CFI f590 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI f5a8 .cfa: sp 32 +
+STACK CFI f5b0 .cfa: sp 0 +
+STACK CFI f5b4 .cfa: x29 32 +
+STACK CFI f5c8 .cfa: sp 32 +
+STACK CFI f5d0 .cfa: sp 0 +
+STACK CFI INIT f5d4 64 .cfa: sp 0 +
+STACK CFI f5d8 .cfa: sp 32 +
+STACK CFI f5e0 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI f60c .cfa: sp 32 +
+STACK CFI f614 .cfa: sp 0 +
+STACK CFI f618 .cfa: x29 32 +
+STACK CFI f62c .cfa: sp 32 +
+STACK CFI f634 .cfa: sp 0 +
+STACK CFI INIT f638 128 .cfa: sp 0 +
+STACK CFI f63c .cfa: sp 80 +
+STACK CFI f64c .cfa: x29 48 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ .ra: .cfa -40 + ^ x29: .cfa -48 + ^
+STACK CFI f748 .cfa: sp 80 +
+STACK CFI f758 .cfa: sp 0 +
+STACK CFI f75c .cfa: x29 48 +
+STACK CFI INIT f760 f8 .cfa: sp 0 +
+STACK CFI f764 .cfa: sp 64 +
+STACK CFI f774 .cfa: x29 64 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -48 + ^ .ra: .cfa -56 + ^ x29: .cfa -64 + ^
+STACK CFI f7d0 .cfa: sp 64 +
+STACK CFI f7e0 .cfa: sp 0 +
+STACK CFI f7e4 .cfa: x29 64 +
+STACK CFI f800 .cfa: sp 64 +
+STACK CFI f810 .cfa: sp 0 +
+STACK CFI f814 .cfa: x29 64 +
+STACK CFI f844 .cfa: sp 64 +
+STACK CFI f854 .cfa: sp 0 +
+STACK CFI INIT f858 30c .cfa: sp 0 +
+STACK CFI f85c .cfa: sp 96 +
+STACK CFI f874 .cfa: x29 96 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ x25: .cfa -56 + ^ x26: .cfa -64 + ^ x27: .cfa -80 + ^ .ra: .cfa -88 + ^ x29: .cfa -96 + ^
+STACK CFI fb28 .cfa: sp 96 +
+STACK CFI fb40 .cfa: sp 0 +
+STACK CFI fb44 .cfa: x29 96 +
+STACK CFI INIT fea0 4 .cfa: sp 0 +
+STACK CFI INIT fea4 c .cfa: sp 0 +
+STACK CFI INIT 10208 4 .cfa: sp 0 +
+STACK CFI INIT 1020c 138 .cfa: sp 0 +
+STACK CFI 10210 .cfa: sp 64 +
+STACK CFI 10220 .cfa: x29 48 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ .ra: .cfa -40 + ^ x29: .cfa -48 + ^
+STACK CFI 10300 .cfa: sp 64 +
+STACK CFI 10310 .cfa: sp 0 +
+STACK CFI 10314 .cfa: x29 48 +
+STACK CFI 1032c .cfa: sp 64 +
+STACK CFI 1033c .cfa: sp 0 +
+STACK CFI 10340 .cfa: x29 48 +
+STACK CFI INIT 103ec 80 .cfa: sp 0 +
+STACK CFI 103f0 .cfa: sp 32 +
+STACK CFI 103f8 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 10460 .cfa: sp 32 +
+STACK CFI 10468 .cfa: sp 0 +
+STACK CFI INIT 10a2c 4 .cfa: sp 0 +
+STACK CFI INIT 10e18 c8 .cfa: sp 0 +
+STACK CFI 10e1c .cfa: sp 64 +
+STACK CFI 10e30 .cfa: x29 40 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ .ra: .cfa -32 + ^ x29: .cfa -40 + ^ v8: .cfa -48 + ^
+STACK CFI 10e78 .cfa: sp 64 +
+STACK CFI 10e8c .cfa: sp 0 +
+STACK CFI 10e90 .cfa: x29 40 +
+STACK CFI INIT 10f88 90 .cfa: sp 0 +
+STACK CFI 10f8c .cfa: sp 32 +
+STACK CFI 10f94 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 1100c .cfa: sp 32 +
+STACK CFI 11014 .cfa: sp 0 +
+STACK CFI INIT 11340 4 .cfa: sp 0 +
+STACK CFI INIT 116bc 8c .cfa: sp 0 +
+STACK CFI 116c0 .cfa: sp 32 +
+STACK CFI 116c8 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 1173c .cfa: sp 32 +
+STACK CFI 11744 .cfa: sp 0 +
+STACK CFI INIT 11ac0 4 .cfa: sp 0 +
+STACK CFI INIT 11ac4 40 .cfa: sp 0 +
+STACK CFI 11ad4 .cfa: sp 32 +
+STACK CFI 11adc .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 11af4 .cfa: sp 32 +
+STACK CFI 11afc .cfa: sp 0 +
+STACK CFI INIT 11e24 4 .cfa: sp 0 +
+STACK CFI INIT 11e28 40 .cfa: sp 0 +
+STACK CFI 11e38 .cfa: sp 32 +
+STACK CFI 11e40 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 11e58 .cfa: sp 32 +
+STACK CFI 11e60 .cfa: sp 0 +
+STACK CFI INIT 121c0 4 .cfa: sp 0 +
+STACK CFI INIT 121c4 a8 .cfa: sp 0 +
+STACK CFI 121c8 .cfa: sp 48 +
+STACK CFI 121d4 .cfa: x29 48 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -32 + ^ .ra: .cfa -40 + ^ x29: .cfa -48 + ^
+STACK CFI 12214 .cfa: sp 48 +
+STACK CFI 12220 .cfa: sp 0 +
+STACK CFI 12224 .cfa: x29 48 +
+STACK CFI 1225c .cfa: sp 48 +
+STACK CFI 12268 .cfa: sp 0 +
+STACK CFI INIT 1226c 3c .cfa: sp 0 +
+STACK CFI 12270 .cfa: sp 32 +
+STACK CFI 12278 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 12284 .cfa: sp 32 +
+STACK CFI 1228c .cfa: sp 0 +
+STACK CFI 12290 .cfa: x29 32 +
+STACK CFI 1229c .cfa: sp 32 +
+STACK CFI 122a4 .cfa: sp 0 +
+STACK CFI INIT 122a8 3c .cfa: sp 0 +
+STACK CFI 122ac .cfa: sp 32 +
+STACK CFI 122b4 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 122c0 .cfa: sp 32 +
+STACK CFI 122c8 .cfa: sp 0 +
+STACK CFI 122cc .cfa: x29 32 +
+STACK CFI 122d8 .cfa: sp 32 +
+STACK CFI 122e0 .cfa: sp 0 +
+STACK CFI INIT b2b0 44c .cfa: sp 0 +
+STACK CFI b2b4 .cfa: sp 224 +
+STACK CFI b2d0 .cfa: x29 96 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ x25: .cfa -56 + ^ x26: .cfa -64 + ^ x27: .cfa -72 + ^ x28: .cfa -80 + ^ .ra: .cfa -88 + ^ x29: .cfa -96 + ^
+STACK CFI b5e4 .cfa: sp 224 +
+STACK CFI b600 .cfa: sp 0 +
+STACK CFI b604 .cfa: x29 96 +
+STACK CFI INIT b6fc 44c .cfa: sp 0 +
+STACK CFI b700 .cfa: sp 224 +
+STACK CFI b71c .cfa: x29 96 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ x25: .cfa -56 + ^ x26: .cfa -64 + ^ x27: .cfa -72 + ^ x28: .cfa -80 + ^ .ra: .cfa -88 + ^ x29: .cfa -96 + ^
+STACK CFI ba30 .cfa: sp 224 +
+STACK CFI ba4c .cfa: sp 0 +
+STACK CFI ba50 .cfa: x29 96 +
+STACK CFI INIT bb48 44c .cfa: sp 0 +
+STACK CFI bb4c .cfa: sp 224 +
+STACK CFI bb68 .cfa: x29 96 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ x25: .cfa -56 + ^ x26: .cfa -64 + ^ x27: .cfa -72 + ^ x28: .cfa -80 + ^ .ra: .cfa -88 + ^ x29: .cfa -96 + ^
+STACK CFI be7c .cfa: sp 224 +
+STACK CFI be98 .cfa: sp 0 +
+STACK CFI be9c .cfa: x29 96 +
+STACK CFI INIT bf94 44c .cfa: sp 0 +
+STACK CFI bf98 .cfa: sp 224 +
+STACK CFI bfb4 .cfa: x29 96 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ x25: .cfa -56 + ^ x26: .cfa -64 + ^ x27: .cfa -72 + ^ x28: .cfa -80 + ^ .ra: .cfa -88 + ^ x29: .cfa -96 + ^
+STACK CFI c2c8 .cfa: sp 224 +
+STACK CFI c2e4 .cfa: sp 0 +
+STACK CFI c2e8 .cfa: x29 96 +
+STACK CFI INIT c3e0 44c .cfa: sp 0 +
+STACK CFI c3e4 .cfa: sp 224 +
+STACK CFI c400 .cfa: x29 96 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ x25: .cfa -56 + ^ x26: .cfa -64 + ^ x27: .cfa -72 + ^ x28: .cfa -80 + ^ .ra: .cfa -88 + ^ x29: .cfa -96 + ^
+STACK CFI c714 .cfa: sp 224 +
+STACK CFI c730 .cfa: sp 0 +
+STACK CFI c734 .cfa: x29 96 +
+STACK CFI INIT c82c 44c .cfa: sp 0 +
+STACK CFI c830 .cfa: sp 224 +
+STACK CFI c84c .cfa: x29 96 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ x25: .cfa -56 + ^ x26: .cfa -64 + ^ x27: .cfa -72 + ^ x28: .cfa -80 + ^ .ra: .cfa -88 + ^ x29: .cfa -96 + ^
+STACK CFI cb60 .cfa: sp 224 +
+STACK CFI cb7c .cfa: sp 0 +
+STACK CFI cb80 .cfa: x29 96 +
+STACK CFI INIT cc78 44c .cfa: sp 0 +
+STACK CFI cc7c .cfa: sp 224 +
+STACK CFI cc98 .cfa: x29 96 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ x25: .cfa -56 + ^ x26: .cfa -64 + ^ x27: .cfa -72 + ^ x28: .cfa -80 + ^ .ra: .cfa -88 + ^ x29: .cfa -96 + ^
+STACK CFI cfac .cfa: sp 224 +
+STACK CFI cfc8 .cfa: sp 0 +
+STACK CFI cfcc .cfa: x29 96 +
+STACK CFI INIT d0c4 44c .cfa: sp 0 +
+STACK CFI d0c8 .cfa: sp 224 +
+STACK CFI d0e4 .cfa: x29 96 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ x25: .cfa -56 + ^ x26: .cfa -64 + ^ x27: .cfa -72 + ^ x28: .cfa -80 + ^ .ra: .cfa -88 + ^ x29: .cfa -96 + ^
+STACK CFI d3f8 .cfa: sp 224 +
+STACK CFI d414 .cfa: sp 0 +
+STACK CFI d418 .cfa: x29 96 +
+STACK CFI INIT d5d0 2e4 .cfa: sp 0 +
+STACK CFI d5d4 .cfa: sp 176 +
+STACK CFI d5e8 .cfa: x29 64 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -48 + ^ .ra: .cfa -56 + ^ x29: .cfa -64 + ^
+STACK CFI d7a8 .cfa: sp 176 +
+STACK CFI d7bc .cfa: sp 0 +
+STACK CFI d7c0 .cfa: x29 64 +
+STACK CFI INIT d904 74 .cfa: sp 0 +
+STACK CFI d908 .cfa: sp 48 +
+STACK CFI d914 .cfa: x29 32 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI d960 .cfa: sp 48 +
+STACK CFI d96c .cfa: sp 0 +
+STACK CFI d970 .cfa: x29 32 +
+STACK CFI INIT da08 71c .cfa: sp 0 +
+STACK CFI da0c .cfa: sp 496 +
+STACK CFI da28 .cfa: x29 96 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ x25: .cfa -56 + ^ x26: .cfa -64 + ^ x27: .cfa -72 + ^ x28: .cfa -80 + ^ .ra: .cfa -88 + ^ x29: .cfa -96 + ^
+STACK CFI dff4 .cfa: sp 496 +
+STACK CFI e010 .cfa: sp 0 +
+STACK CFI e014 .cfa: x29 96 +
+STACK CFI INIT e210 50 .cfa: sp 0 +
+STACK CFI e214 .cfa: sp 32 +
+STACK CFI e21c .cfa: x29 32 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI INIT e348 1ac .cfa: sp 0 +
+STACK CFI e34c .cfa: sp 128 +
+STACK CFI e364 .cfa: x29 80 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ x25: .cfa -64 + ^ .ra: .cfa -72 + ^ x29: .cfa -80 + ^
+STACK CFI e488 .cfa: sp 128 +
+STACK CFI e4a0 .cfa: sp 0 +
+STACK CFI e4a4 .cfa: x29 80 +
+STACK CFI INIT ec68 7d8 .cfa: sp 0 +
+STACK CFI ec6c .cfa: sp 368 +
+STACK CFI ec88 .cfa: x29 96 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ x25: .cfa -56 + ^ x26: .cfa -64 + ^ x27: .cfa -72 + ^ x28: .cfa -80 + ^ .ra: .cfa -88 + ^ x29: .cfa -96 + ^
+STACK CFI f2dc .cfa: sp 368 +
+STACK CFI f2f8 .cfa: sp 0 +
+STACK CFI f2fc .cfa: x29 96 +
+STACK CFI INIT f440 a8 .cfa: sp 0 +
+STACK CFI f444 .cfa: sp 32 +
+STACK CFI f44c .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI f480 .cfa: sp 32 +
+STACK CFI f488 .cfa: sp 0 +
+STACK CFI f48c .cfa: x29 32 +
+STACK CFI f490 .cfa: sp 32 +
+STACK CFI f498 .cfa: sp 0 +
+STACK CFI f49c .cfa: x29 32 +
+STACK CFI INIT fb64 33c .cfa: sp 0 +
+STACK CFI fb68 .cfa: sp 208 +
+STACK CFI fb7c .cfa: x29 64 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -48 + ^ .ra: .cfa -56 + ^ x29: .cfa -64 + ^
+STACK CFI fd7c .cfa: sp 208 +
+STACK CFI fd90 .cfa: sp 0 +
+STACK CFI fd94 .cfa: x29 64 +
+STACK CFI INIT feb0 358 .cfa: sp 0 +
+STACK CFI feb4 .cfa: sp 256 +
+STACK CFI fec8 .cfa: x29 64 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -48 + ^ .ra: .cfa -56 + ^ x29: .cfa -64 + ^
+STACK CFI 100e4 .cfa: sp 256 +
+STACK CFI 100f8 .cfa: sp 0 +
+STACK CFI 100fc .cfa: x29 64 +
+STACK CFI INIT 10344 a8 .cfa: sp 0 +
+STACK CFI 10348 .cfa: sp 32 +
+STACK CFI 10350 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 10384 .cfa: sp 32 +
+STACK CFI 1038c .cfa: sp 0 +
+STACK CFI 10390 .cfa: x29 32 +
+STACK CFI 10394 .cfa: sp 32 +
+STACK CFI 1039c .cfa: sp 0 +
+STACK CFI 103a0 .cfa: x29 32 +
+STACK CFI INIT 1046c 5c0 .cfa: sp 0 +
+STACK CFI 10470 .cfa: sp 256 +
+STACK CFI 10488 .cfa: x29 80 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ x25: .cfa -56 + ^ x26: .cfa -64 + ^ .ra: .cfa -72 + ^ x29: .cfa -80 + ^
+STACK CFI 10858 .cfa: sp 256 +
+STACK CFI 10870 .cfa: sp 0 +
+STACK CFI 10874 .cfa: x29 80 +
+STACK CFI INIT 10a30 3e8 .cfa: sp 0 +
+STACK CFI 10a34 .cfa: sp 224 +
+STACK CFI 10a48 .cfa: x29 64 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -48 + ^ .ra: .cfa -56 + ^ x29: .cfa -64 + ^
+STACK CFI 10d40 .cfa: sp 224 +
+STACK CFI 10d54 .cfa: sp 0 +
+STACK CFI 10d58 .cfa: x29 64 +
+STACK CFI INIT 10ee0 a8 .cfa: sp 0 +
+STACK CFI 10ee4 .cfa: sp 32 +
+STACK CFI 10eec .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 10f20 .cfa: sp 32 +
+STACK CFI 10f28 .cfa: sp 0 +
+STACK CFI 10f2c .cfa: x29 32 +
+STACK CFI 10f30 .cfa: sp 32 +
+STACK CFI 10f38 .cfa: sp 0 +
+STACK CFI 10f3c .cfa: x29 32 +
+STACK CFI INIT 11018 1c .cfa: sp 0 +
+STACK CFI 1101c .cfa: sp 16 +
+STACK CFI 11020 .cfa: x29 16 + .ra: .cfa -8 + ^ x29: .cfa -16 + ^
+STACK CFI 11028 .cfa: sp 16 +
+STACK CFI 1102c .cfa: sp 0 +
+STACK CFI 11030 .cfa: x29 16 +
+STACK CFI INIT 11034 30c .cfa: sp 0 +
+STACK CFI 11038 .cfa: sp 224 +
+STACK CFI 1104c .cfa: x29 64 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -48 + ^ .ra: .cfa -56 + ^ x29: .cfa -64 + ^
+STACK CFI 1122c .cfa: sp 224 +
+STACK CFI 11240 .cfa: sp 0 +
+STACK CFI 11244 .cfa: x29 64 +
+STACK CFI INIT 11344 2d0 .cfa: sp 0 +
+STACK CFI 11348 .cfa: sp 80 +
+STACK CFI 1135c .cfa: x29 80 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ x25: .cfa -56 + ^ x26: .cfa -64 + ^ .ra: .cfa -72 + ^ x29: .cfa -80 + ^
+STACK CFI 115a8 .cfa: sp 80 +
+STACK CFI 115bc .cfa: sp 0 +
+STACK CFI 115c0 .cfa: x29 80 +
+STACK CFI INIT 11614 a8 .cfa: sp 0 +
+STACK CFI 11618 .cfa: sp 32 +
+STACK CFI 11620 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 11654 .cfa: sp 32 +
+STACK CFI 1165c .cfa: sp 0 +
+STACK CFI 11660 .cfa: x29 32 +
+STACK CFI 11664 .cfa: sp 32 +
+STACK CFI 1166c .cfa: sp 0 +
+STACK CFI 11670 .cfa: x29 32 +
+STACK CFI INIT 11748 1c .cfa: sp 0 +
+STACK CFI 1174c .cfa: sp 16 +
+STACK CFI 11750 .cfa: x29 16 + .ra: .cfa -8 + ^ x29: .cfa -16 + ^
+STACK CFI 11758 .cfa: sp 16 +
+STACK CFI 1175c .cfa: sp 0 +
+STACK CFI 11760 .cfa: x29 16 +
+STACK CFI INIT 11764 35c .cfa: sp 0 +
+STACK CFI 11768 .cfa: sp 256 +
+STACK CFI 1177c .cfa: x29 64 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -48 + ^ .ra: .cfa -56 + ^ x29: .cfa -64 + ^
+STACK CFI 11994 .cfa: sp 256 +
+STACK CFI 119a8 .cfa: sp 0 +
+STACK CFI 119ac .cfa: x29 64 +
+STACK CFI INIT 11b04 320 .cfa: sp 0 +
+STACK CFI 11b08 .cfa: sp 240 +
+STACK CFI 11b1c .cfa: x29 64 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -48 + ^ .ra: .cfa -56 + ^ x29: .cfa -64 + ^
+STACK CFI 11d08 .cfa: sp 240 +
+STACK CFI 11d1c .cfa: sp 0 +
+STACK CFI 11d20 .cfa: x29 64 +
+STACK CFI INIT 11e68 358 .cfa: sp 0 +
+STACK CFI 11e6c .cfa: sp 224 +
+STACK CFI 11e80 .cfa: x29 64 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ .ra: .cfa -56 + ^ x29: .cfa -64 + ^
+STACK CFI 12094 .cfa: sp 224 +
+STACK CFI 120a8 .cfa: sp 0 +
+STACK CFI 120ac .cfa: x29 64 +
