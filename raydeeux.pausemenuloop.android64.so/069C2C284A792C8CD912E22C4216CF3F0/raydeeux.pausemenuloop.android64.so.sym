@@ -1,0 +1,933 @@
+MODULE Linux arm64 069C2C284A792C8CD912E22C4216CF3F0 raydeeux.pausemenuloop.android64.so
+INFO CODE_ID 282C9C06794A8C2CD912E22C4216CF3F01B631C6
+INFO GENERATOR mozilla/dump_syms 2.3.4
+PUBLIC db10 0 __on_dlclose
+PUBLIC db20 0 __emutls_unregister_key
+PUBLIC db28 0 __on_dlclose_late
+PUBLIC db30 0 __atexit_handler_wrapper
+PUBLIC db44 0 atexit
+PUBLIC db60 0 pthread_atfork
+PUBLIC db70 0 unwind_phase2
+PUBLIC dca4 0 _Unwind_Resume
+PUBLIC dd28 0 unwind_phase2_forced
+PUBLIC m de1c 0 __unw_init_local
+PUBLIC m dec4 0 __unw_get_reg
+PUBLIC df40 0 __unw_step_stage2
+PUBLIC m df54 0 __unw_get_proc_info
+PUBLIC m df94 0 __unw_resume
+PUBLIC dfbc 0 libunwind::CFI_Parser<libunwind::LocalAddressSpace>::decodeFDE(libunwind::LocalAddressSpace&, unsigned long, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::FDE_Info*, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::CIE_Info*, bool)
+PUBLIC e14c 0 libunwind::CFI_Parser<libunwind::LocalAddressSpace>::parseCIE(libunwind::LocalAddressSpace&, unsigned long, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::CIE_Info*)
+PUBLIC e414 0 libunwind::AbstractUnwindCursor::~AbstractUnwindCursor()
+PUBLIC e41c 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::~UnwindCursor()
+PUBLIC e424 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::validReg(int)
+PUBLIC e468 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::getReg(int)
+PUBLIC e550 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::setReg(int, unsigned long)
+PUBLIC e638 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::validFloatReg(int)
+PUBLIC e64c 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::getFloatReg(int)
+PUBLIC e65c 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::setFloatReg(int, double)
+PUBLIC e66c 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::step(bool)
+PUBLIC e75c 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::getInfo(unw_proc_info_t*)
+PUBLIC e7a0 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::jumpto()
+PUBLIC e7ac 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::isSignalFrame()
+PUBLIC e7b8 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::getFunctionName(char*, unsigned long, unsigned long*)
+PUBLIC e7e4 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::setInfoBasedOnIPRegister(bool)
+PUBLIC ea20 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::getRegisterName(int)
+PUBLIC ea2c 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::stepThroughSigReturn(libunwind::Registers_arm64&)
+PUBLIC eb4c 0 libunwind::DwarfInstructions<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::stepWithDwarf(libunwind::LocalAddressSpace&, unsigned long, unsigned long, libunwind::Registers_arm64&, bool&, bool)
+PUBLIC efe0 0 libunwind::CFI_Parser<libunwind::LocalAddressSpace>::parseFDEInstructions(libunwind::LocalAddressSpace&, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::FDE_Info const&, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::CIE_Info const&, unsigned long, int, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::PrologInfo*)
+PUBLIC fb58 0 libunwind::DwarfInstructions<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::getCFA(libunwind::LocalAddressSpace&, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::PrologInfo const&, libunwind::Registers_arm64 const&)
+PUBLIC fc8c 0 libunwind::DwarfInstructions<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::getSavedRegister(libunwind::LocalAddressSpace&, libunwind::Registers_arm64 const&, unsigned long, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::RegisterLocation const&)
+PUBLIC fe9c 0 libunwind::LocalAddressSpace::getEncodedP(unsigned long&, unsigned long, unsigned char, unsigned long)
+PUBLIC 10228 0 libunwind::LocalAddressSpace::getULEB128(unsigned long&, unsigned long)
+PUBLIC 103f0 0 libunwind::DwarfInstructions<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::evaluateExpression(unsigned long, libunwind::LocalAddressSpace&, libunwind::Registers_arm64 const&, unsigned long)
+PUBLIC 10db4 0 libunwind::UnwindCursor<libunwind::LocalAddressSpace, libunwind::Registers_arm64>::getInfoFromDwarfSection(unsigned long, libunwind::UnwindInfoSections const&, unsigned int)
+PUBLIC 11088 0 libunwind::findUnwindSectionsByPhdr(dl_phdr_info*, unsigned long, void*)
+PUBLIC 111b8 0 libunwind::EHHeaderParser<libunwind::LocalAddressSpace>::decodeEHHdr(libunwind::LocalAddressSpace&, unsigned long, unsigned long, libunwind::EHHeaderParser<libunwind::LocalAddressSpace>::EHHeaderInfo&)
+PUBLIC 112d8 0 libunwind::CFI_Parser<libunwind::LocalAddressSpace>::findFDE(libunwind::LocalAddressSpace&, unsigned long, unsigned long, unsigned long, unsigned long, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::FDE_Info*, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::CIE_Info*)
+PUBLIC 114a0 0 libunwind::EHHeaderParser<libunwind::LocalAddressSpace>::findFDE(libunwind::LocalAddressSpace&, unsigned long, unsigned long, unsigned int, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::FDE_Info*, libunwind::CFI_Parser<libunwind::LocalAddressSpace>::CIE_Info*)
+PUBLIC 11608 0 libunwind::EHHeaderParser<libunwind::LocalAddressSpace>::getTableEntrySize(unsigned char)
+PUBLIC 11704 0 libunwind::Registers_arm64::getRegisterName(int)
+PUBLIC 11734 0 __libunwind_Registers_arm64_jumpto
+PUBLIC m 117c4 0 __unw_getcontext
+PUBLIC 11860 0 Utils::isSupportedExtension(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >)
+PUBLIC 11924 0 Utils::stopMusicRemoveLowPass(Manager*)
+PUBLIC 11960 0 __aarch64_ldadd8_relax
+PUBLIC 11990 0 init_have_lse_atomics
+PUBLIC 11a28 0 __init_cpu_features_constructor
+PUBLIC 11cd4 0 __init_cpu_features
+PUBLIC 11d60 0 __aarch64_ldadd8_acq_rel
+PUBLIC 11d90 0 MyButtonSettingV3::createNode(float)
+PUBLIC 123f4 0 std::__ndk1::shared_ptr<MyButtonSettingV3>::~shared_ptr[abi:ne190000]()
+PUBLIC 12444 0 std::__ndk1::shared_ptr<geode::SettingV3>::~shared_ptr[abi:ne190000]()
+PUBLIC 12494 0 MyButtonSettingV3::~MyButtonSettingV3()
+PUBLIC 124b8 0 MyButtonSettingV3::load(matjson::Value const&)
+PUBLIC 124c0 0 MyButtonSettingV3::save(matjson::Value&) const
+PUBLIC 124c8 0 MyButtonSettingV3::isDefaultValue() const
+PUBLIC 124d0 0 MyButtonSettingV3::reset()
+PUBLIC 124d4 0 cocos2d::CCCopying::copyWithZone(cocos2d::CCZone*)
+PUBLIC 124dc 0 MyButtonSettingNodeV3::~MyButtonSettingNodeV3()
+PUBLIC 12568 0 MyButtonSettingNodeV3::~MyButtonSettingNodeV3()
+PUBLIC 12604 0 MyButtonSettingNodeV3::onCommit()
+PUBLIC 12608 0 MyButtonSettingNodeV3::onResetToDefault()
+PUBLIC 1260c 0 MyButtonSettingNodeV3::hasUncommittedChanges() const
+PUBLIC 12614 0 MyButtonSettingNodeV3::hasNonDefaultValue() const
+PUBLIC 1261c 0 __clang_call_terminate
+PUBLIC 1262c 0 MyButtonSettingNodeV3::onConfigDirButton(cocos2d::CCObject*)
+PUBLIC 126d4 0 std::__ndk1::__throw_bad_optional_access[abi:ne190000]()
+PUBLIC 12708 0 std::__ndk1::__throw_bad_weak_ptr[abi:ne190000]()
+PUBLIC 1273c 0 geode::Mod::getSettingValue<long>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >) const
+PUBLIC 12850 0 geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)
+PUBLIC 12d00 0 __cxx_global_var_init.1
+PUBLIC 13174 0 geode::modifier::ModifyBase<geode::modifier::ModifyDerive<MyPlayLayer, PlayLayer> >::~ModifyBase()
+PUBLIC 1318c 0 __cxx_global_var_init.2
+PUBLIC 13600 0 geode::modifier::ModifyBase<geode::modifier::ModifyDerive<MyPauseLayer, PauseLayer> >::~ModifyBase()
+PUBLIC 13618 0 std::__ndk1::shared_ptr<geode::IntSettingV3>::~shared_ptr[abi:ne190000]()
+PUBLIC 13668 0 geode::cast::traverseTypeinfoFor(void*, geode::cast::ClassTypeinfoType const*, char const*)
+PUBLIC 13760 0 MyButtonSettingV3::parse(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, matjson::Value const&)
+PUBLIC 13ae4 0 geode::impl::ResultData<void, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >::~ResultData()
+PUBLIC 13b58 0 std::__throw_bad_array_new_length([abi:ne190000], void)
+PUBLIC 13b8c 0 std::__ndk1::__shared_ptr_emplace<MyButtonSettingV3, std::__ndk1::allocator<MyButtonSettingV3> >::~__shared_ptr_emplace()
+PUBLIC 13b9c 0 std::__ndk1::__shared_ptr_emplace<MyButtonSettingV3, std::__ndk1::allocator<MyButtonSettingV3> >::~__shared_ptr_emplace()
+PUBLIC 13bcc 0 std::__ndk1::__shared_ptr_emplace<MyButtonSettingV3, std::__ndk1::allocator<MyButtonSettingV3> >::__on_zero_shared()
+PUBLIC 13bd8 0 std::__ndk1::__shared_ptr_emplace<MyButtonSettingV3, std::__ndk1::allocator<MyButtonSettingV3> >::__on_zero_shared_weak()
+PUBLIC 13bdc 0 std::__ndk1::__throw_bad_variant_access[abi:ne190000]()
+PUBLIC 13c10 0 geode::UnwrapException::~UnwrapException()
+PUBLIC 13c34 0 std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >::__init_copy_ctor_external(char const*, unsigned long)
+PUBLIC 13cc8 0 std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >::__throw_length_error[abi:ne190000]() const
+PUBLIC 13cdc 0 std::__ndk1::__throw_length_error[abi:ne190000](char const*)
+PUBLIC 13d2c 0 std::length_error::length_error[abi:ne190000](char const*)
+PUBLIC 13d5c 0 std::__ndk1::__function::__base<geode::Result<std::__ndk1::shared_ptr<geode::SettingV3>, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, matjson::Value const&)>::~__base()
+PUBLIC 13d60 0 std::__ndk1::__function::__func<geode::Result<std::__ndk1::shared_ptr<geode::SettingV3>, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > (*)(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, matjson::Value const&), std::__ndk1::allocator<geode::Result<std::__ndk1::shared_ptr<geode::SettingV3>, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > (*)(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, matjson::Value const&)>, geode::Result<std::__ndk1::shared_ptr<geode::SettingV3>, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, matjson::Value const&)>::~__func()
+PUBLIC 13d64 0 std::__ndk1::__function::__func<geode::Result<std::__ndk1::shared_ptr<geode::SettingV3>, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > (*)(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, matjson::Value const&), std::__ndk1::allocator<geode::Result<std::__ndk1::shared_ptr<geode::SettingV3>, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > (*)(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, matjson::Value const&)>, geode::Result<std::__ndk1::shared_ptr<geode::SettingV3>, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, matjson::Value const&)>::__clone() const
+PUBLIC 13d98 0 std::__ndk1::__function::__func<geode::Result<std::__ndk1::shared_ptr<geode::SettingV3>, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > (*)(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, matjson::Value const&), std::__ndk1::allocator<geode::Result<std::__ndk1::shared_ptr<geode::SettingV3>, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > (*)(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, matjson::Value const&)>, geode::Result<std::__ndk1::shared_ptr<geode::SettingV3>, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, matjson::Value const&)>::__clone(std::__ndk1::__function::__base<geode::Result<std::__ndk1::shared_ptr<geode::SettingV3>, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, matjson::Value const&)>*) const
+PUBLIC 13dac 0 std::__ndk1::__function::__func<geode::Result<std::__ndk1::shared_ptr<geode::SettingV3>, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > (*)(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, matjson::Value const&), std::__ndk1::allocator<geode::Result<std::__ndk1::shared_ptr<geode::SettingV3>, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > (*)(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, matjson::Value const&)>, geode::Result<std::__ndk1::shared_ptr<geode::SettingV3>, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, matjson::Value const&)>::destroy()
+PUBLIC 13db0 0 std::__ndk1::__function::__func<geode::Result<std::__ndk1::shared_ptr<geode::SettingV3>, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > (*)(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, matjson::Value const&), std::__ndk1::allocator<geode::Result<std::__ndk1::shared_ptr<geode::SettingV3>, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > (*)(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, matjson::Value const&)>, geode::Result<std::__ndk1::shared_ptr<geode::SettingV3>, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, matjson::Value const&)>::destroy_deallocate()
+PUBLIC 13db4 0 std::__ndk1::__function::__func<geode::Result<std::__ndk1::shared_ptr<geode::SettingV3>, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > (*)(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, matjson::Value const&), std::__ndk1::allocator<geode::Result<std::__ndk1::shared_ptr<geode::SettingV3>, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > (*)(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, matjson::Value const&)>, geode::Result<std::__ndk1::shared_ptr<geode::SettingV3>, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, matjson::Value const&)>::operator()(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, matjson::Value const&)
+PUBLIC 13dc8 0 std::__ndk1::__function::__func<geode::Result<std::__ndk1::shared_ptr<geode::SettingV3>, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > (*)(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, matjson::Value const&), std::__ndk1::allocator<geode::Result<std::__ndk1::shared_ptr<geode::SettingV3>, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > (*)(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, matjson::Value const&)>, geode::Result<std::__ndk1::shared_ptr<geode::SettingV3>, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, matjson::Value const&)>::target(std::type_info const&) const
+PUBLIC 13de4 0 std::__ndk1::__function::__func<geode::Result<std::__ndk1::shared_ptr<geode::SettingV3>, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > (*)(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, matjson::Value const&), std::__ndk1::allocator<geode::Result<std::__ndk1::shared_ptr<geode::SettingV3>, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > (*)(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, matjson::Value const&)>, geode::Result<std::__ndk1::shared_ptr<geode::SettingV3>, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, matjson::Value const&)>::target_type() const
+PUBLIC 13df0 0 std::__ndk1::__variant_detail::__visitation::__base::__dispatcher<(unsigned long)0>::__dispatch[abi:ne190000]<std::__ndk1::__variant_detail::__dtor<std::__ndk1::__variant_detail::__traits<std::__ndk1::monostate, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, (std::__ndk1::__variant_detail::_Trait)1>::__destroy[abi:ne190000]()::{lambda(auto:1&)#1}, std::__ndk1::__variant_detail::__base<(std::__ndk1::__variant_detail::__traits<std::__ndk1::monostate, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >)1, std::__ndk1::__variant_detail::__traits, std::__ndk1::allocator<char> >&>(std::__ndk1::__variant_detail::__dtor<std::__ndk1::__variant_detail::__traits<std::__ndk1::monostate, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, (std::__ndk1::__variant_detail::_Trait)1>, std::__ndk1::__variant_detail::__base<(std::__ndk1::__variant_detail::__traits<std::__ndk1::monostate, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >)1, std::__ndk1::__variant_detail::__traits, std::__ndk1::allocator<char> >&)
+PUBLIC 13df4 0 std::__ndk1::__variant_detail::__visitation::__base::__dispatcher<(unsigned long)1>::__dispatch[abi:ne190000]<std::__ndk1::__variant_detail::__dtor<std::__ndk1::__variant_detail::__traits<std::__ndk1::monostate, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, (std::__ndk1::__variant_detail::_Trait)1>::__destroy[abi:ne190000]()::{lambda(auto:1&)#1}, std::__ndk1::__variant_detail::__base<(std::__ndk1::__variant_detail::__traits<std::__ndk1::monostate, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >)1, std::__ndk1::__variant_detail::__traits, std::__ndk1::allocator<char> >&>(std::__ndk1::__variant_detail::__dtor<std::__ndk1::__variant_detail::__traits<std::__ndk1::monostate, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, (std::__ndk1::__variant_detail::_Trait)1>, std::__ndk1::__variant_detail::__base<(std::__ndk1::__variant_detail::__traits<std::__ndk1::monostate, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >)1, std::__ndk1::__variant_detail::__traits, std::__ndk1::allocator<char> >&)
+PUBLIC 13e08 0 geode::EventListener<geode::SettingChangedFilterV3>::EventListener(std::__ndk1::function<void (std::__ndk1::shared_ptr<geode::SettingV3>)>, geode::SettingChangedFilterV3)
+PUBLIC 13f00 0 geode::SettingChangedFilterV3::~SettingChangedFilterV3()
+PUBLIC 13f50 0 std::__ndk1::__function::__func<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}, std::__ndk1::allocator<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}>, void (std::__ndk1::shared_ptr<geode::SettingV3>)>::~__func()
+PUBLIC 13f54 0 std::__ndk1::__function::__func<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}, std::__ndk1::allocator<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}>, void (std::__ndk1::shared_ptr<geode::SettingV3>)>::__clone() const
+PUBLIC 13f8c 0 std::__ndk1::__function::__func<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}, std::__ndk1::allocator<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}>, void (std::__ndk1::shared_ptr<geode::SettingV3>)>::__clone(std::__ndk1::__function::__base<void (std::__ndk1::shared_ptr<geode::SettingV3>)>*) const
+PUBLIC 13fa4 0 std::__ndk1::__function::__func<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}, std::__ndk1::allocator<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}>, void (std::__ndk1::shared_ptr<geode::SettingV3>)>::destroy()
+PUBLIC 13fa8 0 std::__ndk1::__function::__func<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}, std::__ndk1::allocator<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}>, void (std::__ndk1::shared_ptr<geode::SettingV3>)>::destroy_deallocate()
+PUBLIC 13fac 0 std::__ndk1::__function::__func<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}, std::__ndk1::allocator<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}>, void (std::__ndk1::shared_ptr<geode::SettingV3>)>::operator()(std::__ndk1::shared_ptr<geode::SettingV3>&&)
+PUBLIC 1419c 0 std::__ndk1::__function::__func<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}, std::__ndk1::allocator<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}>, void (std::__ndk1::shared_ptr<geode::SettingV3>)>::target(std::type_info const&) const
+PUBLIC 141b8 0 std::__ndk1::__function::__func<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}, std::__ndk1::allocator<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}>, void (std::__ndk1::shared_ptr<geode::SettingV3>)>::target_type() const
+PUBLIC 141c4 0 geode::EventListener<geode::SettingChangedFilterV3>::getPool() const
+PUBLIC 141c8 0 geode::EventListener<geode::SettingChangedFilterV3>::handle(geode::Event*)
+PUBLIC 1432c 0 geode::EventListener<geode::SettingChangedFilterV3>::~EventListener()
+PUBLIC 143c8 0 geode::EventListener<geode::SettingChangedFilterV3>::~EventListener()
+PUBLIC 1446c 0 std::__ndk1::__function::__func<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}, std::__ndk1::allocator<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}>, void (std::__ndk1::shared_ptr<geode::SettingV3>)>::~__func()
+PUBLIC 14470 0 std::__ndk1::__function::__func<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}, std::__ndk1::allocator<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}>, void (std::__ndk1::shared_ptr<geode::SettingV3>)>::__clone() const
+PUBLIC 144a8 0 std::__ndk1::__function::__func<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}, std::__ndk1::allocator<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}>, void (std::__ndk1::shared_ptr<geode::SettingV3>)>::__clone(std::__ndk1::__function::__base<void (std::__ndk1::shared_ptr<geode::SettingV3>)>*) const
+PUBLIC 144c0 0 std::__ndk1::__function::__func<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}, std::__ndk1::allocator<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}>, void (std::__ndk1::shared_ptr<geode::SettingV3>)>::destroy()
+PUBLIC 144c4 0 std::__ndk1::__function::__func<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}, std::__ndk1::allocator<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}>, void (std::__ndk1::shared_ptr<geode::SettingV3>)>::destroy_deallocate()
+PUBLIC 144c8 0 std::__ndk1::__function::__func<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}, std::__ndk1::allocator<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}>, void (std::__ndk1::shared_ptr<geode::SettingV3>)>::operator()(std::__ndk1::shared_ptr<geode::SettingV3>&&)
+PUBLIC 146d0 0 std::__ndk1::__function::__func<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}, std::__ndk1::allocator<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}>, void (std::__ndk1::shared_ptr<geode::SettingV3>)>::target(std::type_info const&) const
+PUBLIC 146ec 0 std::__ndk1::__function::__func<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}, std::__ndk1::allocator<geode::listenForSettingChangesV3<long, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(long)#2}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}>, void (std::__ndk1::shared_ptr<geode::SettingV3>)>::target_type() const
+PUBLIC 146f8 0 geode::Mod::getSettingValue<double>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >) const
+PUBLIC 14830 0 std::__ndk1::shared_ptr<geode::FloatSettingV3>::~shared_ptr[abi:ne190000]()
+PUBLIC 14880 0 std::__ndk1::__function::__base<void (std::__ndk1::shared_ptr<geode::SettingV3>)>::~__base()
+PUBLIC 14884 0 std::__ndk1::__function::__func<geode::listenForSettingChangesV3<double, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}, std::__ndk1::allocator<geode::listenForSettingChangesV3<double, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}>, void (std::__ndk1::shared_ptr<geode::SettingV3>)>::~__func()
+PUBLIC 14888 0 std::__ndk1::__function::__func<geode::listenForSettingChangesV3<double, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}, std::__ndk1::allocator<geode::listenForSettingChangesV3<double, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}>, void (std::__ndk1::shared_ptr<geode::SettingV3>)>::__clone() const
+PUBLIC 148c0 0 std::__ndk1::__function::__func<geode::listenForSettingChangesV3<double, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}, std::__ndk1::allocator<geode::listenForSettingChangesV3<double, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}>, void (std::__ndk1::shared_ptr<geode::SettingV3>)>::__clone(std::__ndk1::__function::__base<void (std::__ndk1::shared_ptr<geode::SettingV3>)>*) const
+PUBLIC 148d8 0 std::__ndk1::__function::__func<geode::listenForSettingChangesV3<double, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}, std::__ndk1::allocator<geode::listenForSettingChangesV3<double, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}>, void (std::__ndk1::shared_ptr<geode::SettingV3>)>::destroy()
+PUBLIC 148dc 0 std::__ndk1::__function::__func<geode::listenForSettingChangesV3<double, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}, std::__ndk1::allocator<geode::listenForSettingChangesV3<double, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}>, void (std::__ndk1::shared_ptr<geode::SettingV3>)>::destroy_deallocate()
+PUBLIC 148e0 0 std::__ndk1::__function::__func<geode::listenForSettingChangesV3<double, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}, std::__ndk1::allocator<geode::listenForSettingChangesV3<double, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}>, void (std::__ndk1::shared_ptr<geode::SettingV3>)>::operator()(std::__ndk1::shared_ptr<geode::SettingV3>&&)
+PUBLIC 14af4 0 std::__ndk1::__function::__func<geode::listenForSettingChangesV3<double, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}, std::__ndk1::allocator<geode::listenForSettingChangesV3<double, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}>, void (std::__ndk1::shared_ptr<geode::SettingV3>)>::target(std::type_info const&) const
+PUBLIC 14b10 0 std::__ndk1::__function::__func<geode::listenForSettingChangesV3<double, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}, std::__ndk1::allocator<geode::listenForSettingChangesV3<double, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >, geodeExecFunction28<(anonymous namespace)::ExecFuncUnique28>(geode::ModStateEvent*)::{lambda(double)#1}&&, geode::Mod*)::{lambda(std::__ndk1::shared_ptr<geode::SettingV3>)#1}>, void (std::__ndk1::shared_ptr<geode::SettingV3>)>::target_type() const
+PUBLIC 14b1c 0 geode::EventListener<geode::ModStateFilter>::getPool() const
+PUBLIC 14b20 0 geode::EventListener<geode::ModStateFilter>::handle(geode::Event*)
+PUBLIC 14c84 0 geode::EventListener<geode::ModStateFilter>::~EventListener()
+PUBLIC 14ce0 0 geode::EventListener<geode::ModStateFilter>::~EventListener()
+PUBLIC 14d44 0 std::__ndk1::__function::__base<void (geode::ModStateEvent*)>::~__base()
+PUBLIC 14d48 0 std::__ndk1::__function::__func<void (*)(geode::ModStateEvent*), std::__ndk1::allocator<void (*)(geode::ModStateEvent*)>, void (geode::ModStateEvent*)>::~__func()
+PUBLIC 14d4c 0 std::__ndk1::__function::__func<void (*)(geode::ModStateEvent*), std::__ndk1::allocator<void (*)(geode::ModStateEvent*)>, void (geode::ModStateEvent*)>::__clone() const
+PUBLIC 14d80 0 std::__ndk1::__function::__func<void (*)(geode::ModStateEvent*), std::__ndk1::allocator<void (*)(geode::ModStateEvent*)>, void (geode::ModStateEvent*)>::__clone(std::__ndk1::__function::__base<void (geode::ModStateEvent*)>*) const
+PUBLIC 14d94 0 std::__ndk1::__function::__func<void (*)(geode::ModStateEvent*), std::__ndk1::allocator<void (*)(geode::ModStateEvent*)>, void (geode::ModStateEvent*)>::destroy()
+PUBLIC 14d98 0 std::__ndk1::__function::__func<void (*)(geode::ModStateEvent*), std::__ndk1::allocator<void (*)(geode::ModStateEvent*)>, void (geode::ModStateEvent*)>::destroy_deallocate()
+PUBLIC 14d9c 0 std::__ndk1::__function::__func<void (*)(geode::ModStateEvent*), std::__ndk1::allocator<void (*)(geode::ModStateEvent*)>, void (geode::ModStateEvent*)>::operator()(geode::ModStateEvent*&&)
+PUBLIC 14dac 0 std::__ndk1::__function::__func<void (*)(geode::ModStateEvent*), std::__ndk1::allocator<void (*)(geode::ModStateEvent*)>, void (geode::ModStateEvent*)>::target(std::type_info const&) const
+PUBLIC 14dc8 0 std::__ndk1::__function::__func<void (*)(geode::ModStateEvent*), std::__ndk1::allocator<void (*)(geode::ModStateEvent*)>, void (geode::ModStateEvent*)>::target_type() const
+PUBLIC 14dd4 0 geode::modifier::ModifyDerive<MyPlayLayer, PlayLayer>::apply()
+PUBLIC 15510 0 std::__ndk1::shared_ptr<geode::Hook>::~shared_ptr[abi:ne190000]()
+PUBLIC 15560 0 geode::impl::ResultData<geode::Hook*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >::~ResultData()
+PUBLIC 155d4 0 std::__ndk1::vector<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > >::~vector[abi:ne190000]()
+PUBLIC 15650 0 geode::modifier::ModifyBase<geode::modifier::ModifyDerive<MyPlayLayer, PlayLayer> >::apply()
+PUBLIC 15654 0 _ZN5geode15UnwrapExceptionC2IRPNS_4HookEQsr4implE18IsStringStreamableIT_EEENS_4impl5OkTagEOS5_
+PUBLIC 157a8 0 std::__ndk1::basic_stringstream<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >::basic_stringstream[abi:ne190000]()
+PUBLIC m 158dc 0 std::__ndk1::basic_stringstream<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >::~basic_stringstream()
+PUBLIC 1595c 0 std::__ndk1::__put_character_sequence[abi:ne190000]<char, std::__ndk1::char_traits<char> >(std::__ndk1::basic_ostream<char, std::__ndk1::char_traits<char> >, std::__ndk1::basic_ostream const*, unsigned long)
+PUBLIC 15b00 0 std::__ndk1::__pad_and_output[abi:ne190000]<char, std::__ndk1::char_traits<char> >(std::__ndk1::char_traits<char>, std::__ndk1::ostreambuf_iterator const*, std::__ndk1::ostreambuf_iterator const, std::__ndk1::ostreambuf_iterator const, std::__ndk1::ios_base&, std::__ndk1::ostreambuf_iterator)
+PUBLIC 15cec 0 std::__ndk1::basic_stringbuf<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >::str[abi:ne190000]() &&
+PUBLIC 15e5c 0 std::__ndk1::basic_stringbuf<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >::__init_buf_ptrs[abi:ne190000]()
+PUBLIC 15fa4 0 std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >::__erase_external_with_move(unsigned long, unsigned long)
+PUBLIC 1602c 0 std::__ndk1::vector<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > >::__push_back_slow_path<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&>(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&)
+PUBLIC 161d8 0 std::__ndk1::__split_buffer<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >&>::~__split_buffer()
+PUBLIC 16240 0 std::__ndk1::vector<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > >::__throw_length_error[abi:ne190000]() const
+PUBLIC 16254 0 std::__ndk1::__variant_detail::__visitation::__base::__dispatcher<(unsigned long)0>::__dispatch[abi:ne190000]<std::__ndk1::__variant_detail::__dtor<std::__ndk1::__variant_detail::__traits<geode::Hook*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, (std::__ndk1::__variant_detail::_Trait)1>::__destroy[abi:ne190000]()::{lambda(auto:1&)#1}, std::__ndk1::__variant_detail::__base<(std::__ndk1::__variant_detail::__traits<geode::Hook*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >)1, geode::Hook, std::__ndk1::allocator<char> >&>(std::__ndk1::__variant_detail::__dtor<std::__ndk1::__variant_detail::__traits<geode::Hook*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, (std::__ndk1::__variant_detail::_Trait)1>, std::__ndk1::__variant_detail::__base<(std::__ndk1::__variant_detail::__traits<geode::Hook*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >)1, geode::Hook, std::__ndk1::allocator<char> >&)
+PUBLIC 16258 0 std::__ndk1::__variant_detail::__visitation::__base::__dispatcher<(unsigned long)1>::__dispatch[abi:ne190000]<std::__ndk1::__variant_detail::__dtor<std::__ndk1::__variant_detail::__traits<geode::Hook*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, (std::__ndk1::__variant_detail::_Trait)1>::__destroy[abi:ne190000]()::{lambda(auto:1&)#1}, std::__ndk1::__variant_detail::__base<(std::__ndk1::__variant_detail::__traits<geode::Hook*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >)1, geode::Hook, std::__ndk1::allocator<char> >&>(std::__ndk1::__variant_detail::__dtor<std::__ndk1::__variant_detail::__traits<geode::Hook*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, (std::__ndk1::__variant_detail::_Trait)1>, std::__ndk1::__variant_detail::__base<(std::__ndk1::__variant_detail::__traits<geode::Hook*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >)1, geode::Hook, std::__ndk1::allocator<char> >&)
+PUBLIC 1626c 0 std::__ndk1::__tree<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, std::__ndk1::__map_value_compare<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, std::__ndk1::less<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, true>, std::__ndk1::allocator<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> > > >::find<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&)
+PUBLIC 16394 0 std::__ndk1::__tree<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, std::__ndk1::__map_value_compare<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, std::__ndk1::less<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, true>, std::__ndk1::allocator<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> > > >::erase(std::__ndk1::__tree_const_iterator<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, std::__ndk1::__tree_node<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, void*>*, long>)
+PUBLIC 16838 0 std::__ndk1::__tree<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, std::__ndk1::__map_value_compare<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, std::__ndk1::less<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, true>, std::__ndk1::allocator<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> > > >::destroy(std::__ndk1::__tree_node<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, void*>*)
+PUBLIC 168bc 0 geode::modifier::AsStaticFunction_init<MyPlayLayer, bool (MyPlayLayer::*)(GJGameLevel*, bool, bool)>::Impl<bool (MyPlayLayer::*)(GJGameLevel*, bool, bool)>::function(MyPlayLayer*, GJGameLevel*, bool, bool)
+PUBLIC 16f84 0 geode::Hook::create<void (*)(MyPlayLayer*)>(void*, void (*)(MyPlayLayer*), std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, tulip::hook::TulipConvention, tulip::hook::HookMetadata const&)
+PUBLIC 170b8 0 geode::modifier::AsStaticFunction_onQuit<MyPlayLayer, void (MyPlayLayer::*)()>::Impl<void (MyPlayLayer::*)()>::function(MyPlayLayer*)
+PUBLIC 17134 0 geode::modifier::AsStaticFunction_resume<MyPlayLayer, void (MyPlayLayer::*)()>::Impl<void (MyPlayLayer::*)()>::function(MyPlayLayer*)
+PUBLIC 171b0 0 std::__ndk1::shared_ptr<tulip::hook::CallingConvention>::~shared_ptr[abi:ne190000]()
+PUBLIC 17200 0 tulip::hook::HandlerMetadata::~HandlerMetadata()
+PUBLIC 17264 0 geode::Mod::getSettingValue<std::__ndk1::__fs::filesystem::path>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >) const
+PUBLIC 173f4 0 geode::Mod::getSettingValue<bool>(std::__ndk1::basic_string_view<char, std::__ndk1::char_traits<char> >) const
+PUBLIC 1751c 0 MyPlayLayer::findAudioFilesIn(std::__ndk1::vector<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::allocator<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > > >&, std::__ndk1::__fs::filesystem::path const&)
+PUBLIC 17884 0 std::__ndk1::shared_ptr<geode::FileSettingV3>::~shared_ptr[abi:ne190000]()
+PUBLIC 178d4 0 std::__ndk1::__fs::filesystem::directory_iterator::~directory_iterator[abi:ne190000]()
+PUBLIC 17924 0 std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >::__assign_no_alias<true>(char const*, unsigned long)
+PUBLIC 179d0 0 std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >::__assign_no_alias<false>(char const*, unsigned long)
+PUBLIC 17b0c 0 std::__ndk1::__tree<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, std::__ndk1::__map_value_compare<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> >, std::__ndk1::less<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, true>, std::__ndk1::allocator<std::__ndk1::__value_type<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::shared_ptr<geode::Hook> > > >::__emplace_unique_key_args<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >, std::__ndk1::piecewise_construct_t const&, std::__ndk1::tuple<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >&&>, std::__ndk1::tuple<> >(std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > const&, std::__ndk1::piecewise_construct_t const&, std::__ndk1::tuple<std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> >&&>, std::__ndk1::tuple<>)
+PUBLIC 17e18 0 geode::modifier::ModifyDerive<MyPauseLayer, PauseLayer>::apply()
+PUBLIC 183dc 0 geode::modifier::ModifyBase<geode::modifier::ModifyDerive<MyPauseLayer, PauseLayer> >::apply()
+PUBLIC 183e0 0 geode::modifier::AsStaticFunction_customSetup<MyPauseLayer, void (MyPauseLayer::*)()>::Impl<void (MyPauseLayer::*)()>::function(MyPauseLayer*)
+PUBLIC 18808 0 geode::modifier::AsStaticFunction_onEdit<MyPauseLayer, void (MyPauseLayer::*)(cocos2d::CCObject*)>::Impl<void (MyPauseLayer::*)(cocos2d::CCObject*)>::function(MyPauseLayer*, cocos2d::CCObject*)
+PUBLIC 18890 0 geode::addresser::Addresser::addressOfVirtual<void, PauseLayer, >(void (PauseLayer::*)())
+PUBLIC 18938 0 PauseLayer::PauseLayer(geode::ZeroConstructorType)
+PUBLIC 189c4 0 MyPauseLayer::onModSettings(cocos2d::CCObject*)
+PUBLIC 18a00 0 _GLOBAL__sub_I_PauseLayer.cpp
+PUBLIC 18b18 0 geode::getMod()
+PUBLIC m 18b54 0 geodeImplicitEntry
+PUBLIC 18b90 0 wrapFunction(unsigned long, tulip::hook::WrapperMetadata const&)
+PUBLIC 18cc4 0 geode::impl::ResultData<void*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >::unwrapErr() &
+PUBLIC 18d3c 0 geode::impl::ResultData<void*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >::~ResultData()
+PUBLIC 18db0 0 tulip::hook::WrapperMetadata::~WrapperMetadata()
+PUBLIC 18e14 0 cocos2d::CCObject::~CCObject()
+PUBLIC 18e38 0 cocos2d::CCNode::CCNode()
+PUBLIC 19000 0 cocos2d::CCNode::~CCNode()
+PUBLIC 19024 0 CCMenuItemSpriteExtra::create(cocos2d::CCNode*, cocos2d::CCObject*, void (cocos2d::CCObject::*)(cocos2d::CCObject*))
+PUBLIC 19038 0 cocos2d::CCObject::update(float)
+PUBLIC 1903c 0 cocos2d::CCNode::~CCNode()
+PUBLIC 191c0 0 cocos2d::CCObject::~CCObject()
+PUBLIC 192f4 0 _ZN5geode15UnwrapExceptionC2IRPvQsr4implE18IsStringStreamableIT_EEENS_4impl5OkTagEOS4_
+PUBLIC 19448 0 _ZN5geode15UnwrapExceptionC2IRNSt6__ndk112basic_stringIcNS2_11char_traitsIcEENS2_9allocatorIcEEEEQsr4implE18IsStringStreamableIT_EEENS_4impl6ErrTagEOSA_
+PUBLIC 195b0 0 std::__ndk1::__variant_detail::__visitation::__base::__dispatcher<(unsigned long)0>::__dispatch[abi:ne190000]<std::__ndk1::__variant_detail::__dtor<std::__ndk1::__variant_detail::__traits<void*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, (std::__ndk1::__variant_detail::_Trait)1>::__destroy[abi:ne190000]()::{lambda(auto:1&)#1}, std::__ndk1::__variant_detail::__base<(std::__ndk1::__variant_detail::__traits<void*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >)1, std::__ndk1::__variant_detail::__traits, std::__ndk1::allocator<char> >&>(std::__ndk1::__variant_detail::__dtor<std::__ndk1::__variant_detail::__traits<void*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, (std::__ndk1::__variant_detail::_Trait)1>, std::__ndk1::__variant_detail::__base<(std::__ndk1::__variant_detail::__traits<void*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >)1, std::__ndk1::__variant_detail::__traits, std::__ndk1::allocator<char> >&)
+PUBLIC 195b4 0 std::__ndk1::__variant_detail::__visitation::__base::__dispatcher<(unsigned long)1>::__dispatch[abi:ne190000]<std::__ndk1::__variant_detail::__dtor<std::__ndk1::__variant_detail::__traits<void*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, (std::__ndk1::__variant_detail::_Trait)1>::__destroy[abi:ne190000]()::{lambda(auto:1&)#1}, std::__ndk1::__variant_detail::__base<(std::__ndk1::__variant_detail::__traits<void*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >)1, std::__ndk1::__variant_detail::__traits, std::__ndk1::allocator<char> >&>(std::__ndk1::__variant_detail::__dtor<std::__ndk1::__variant_detail::__traits<void*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >, (std::__ndk1::__variant_detail::_Trait)1>, std::__ndk1::__variant_detail::__base<(std::__ndk1::__variant_detail::__traits<void*, std::__ndk1::basic_string<char, std::__ndk1::char_traits<char>, std::__ndk1::allocator<char> > >)1, std::__ndk1::__variant_detail::__traits, std::__ndk1::allocator<char> >&)
+PUBLIC 195d0 0 <.plt ELF section in raydeeux.pausemenuloop.android64.so>
+STACK CFI INIT db10 10 .cfa: sp 0 +
+STACK CFI INIT db20 8 .cfa: sp 0 +
+STACK CFI INIT db28 8 .cfa: sp 0 +
+STACK CFI INIT db30 14 .cfa: sp 0 +
+STACK CFI INIT db44 1c .cfa: sp 0 +
+STACK CFI INIT db60 10 .cfa: sp 0 +
+STACK CFI INIT db70 134 .cfa: sp 0 +
+STACK CFI INIT dca4 84 .cfa: sp 0 +
+STACK CFI INIT dd28 f4 .cfa: sp 0 +
+STACK CFI INIT de1c a8 .cfa: sp 0 +
+STACK CFI INIT dec4 7c .cfa: sp 0 +
+STACK CFI INIT df40 14 .cfa: sp 0 +
+STACK CFI INIT df54 40 .cfa: sp 0 +
+STACK CFI INIT df94 28 .cfa: sp 0 +
+STACK CFI INIT dfbc 190 .cfa: sp 0 +
+STACK CFI INIT e14c 2c8 .cfa: sp 0 +
+STACK CFI INIT e414 8 .cfa: sp 0 +
+STACK CFI INIT e41c 8 .cfa: sp 0 +
+STACK CFI INIT e424 44 .cfa: sp 0 +
+STACK CFI INIT e468 e8 .cfa: sp 0 +
+STACK CFI INIT e550 e8 .cfa: sp 0 +
+STACK CFI INIT e638 14 .cfa: sp 0 +
+STACK CFI INIT e64c 10 .cfa: sp 0 +
+STACK CFI INIT e65c 10 .cfa: sp 0 +
+STACK CFI INIT e66c f0 .cfa: sp 0 +
+STACK CFI INIT e75c 44 .cfa: sp 0 +
+STACK CFI INIT e7a0 c .cfa: sp 0 +
+STACK CFI INIT e7ac c .cfa: sp 0 +
+STACK CFI INIT e7b8 2c .cfa: sp 0 +
+STACK CFI INIT e7e4 23c .cfa: sp 0 +
+STACK CFI INIT ea20 c .cfa: sp 0 +
+STACK CFI INIT ea2c 120 .cfa: sp 0 +
+STACK CFI INIT eb4c 494 .cfa: sp 0 +
+STACK CFI INIT efe0 b78 .cfa: sp 0 +
+STACK CFI INIT fb58 134 .cfa: sp 0 +
+STACK CFI INIT fc8c 210 .cfa: sp 0 +
+STACK CFI INIT fe9c 38c .cfa: sp 0 +
+STACK CFI INIT 10228 1c8 .cfa: sp 0 +
+STACK CFI INIT 103f0 9c4 .cfa: sp 0 +
+STACK CFI INIT 10db4 2d4 .cfa: sp 0 +
+STACK CFI INIT 11088 130 .cfa: sp 0 +
+STACK CFI INIT 111b8 120 .cfa: sp 0 +
+STACK CFI INIT 112d8 1c8 .cfa: sp 0 +
+STACK CFI INIT 114a0 168 .cfa: sp 0 +
+STACK CFI INIT 11608 fc .cfa: sp 0 +
+STACK CFI INIT 11704 30 .cfa: sp 0 +
+STACK CFI INIT 11860 c4 .cfa: sp 0 +
+STACK CFI INIT 11924 3c .cfa: sp 0 +
+STACK CFI 11928 .cfa: sp 32 +
+STACK CFI 11930 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 11954 .cfa: sp 32 +
+STACK CFI 1195c .cfa: sp 0 +
+STACK CFI INIT 11960 30 .cfa: sp 0 +
+STACK CFI INIT 11990 98 .cfa: sp 0 +
+STACK CFI INIT 11a28 2ac .cfa: sp 0 +
+STACK CFI INIT 11cd4 8c .cfa: sp 0 +
+STACK CFI INIT 11d60 30 .cfa: sp 0 +
+STACK CFI INIT 123f4 50 .cfa: sp 0 +
+STACK CFI 123f8 .cfa: sp 32 +
+STACK CFI 12400 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 12418 .cfa: sp 32 +
+STACK CFI 12420 .cfa: sp 0 +
+STACK CFI 12424 .cfa: x29 32 +
+STACK CFI 12438 .cfa: sp 32 +
+STACK CFI 12440 .cfa: sp 0 +
+STACK CFI INIT 12444 50 .cfa: sp 0 +
+STACK CFI 12448 .cfa: sp 32 +
+STACK CFI 12450 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 12468 .cfa: sp 32 +
+STACK CFI 12470 .cfa: sp 0 +
+STACK CFI 12474 .cfa: x29 32 +
+STACK CFI 12488 .cfa: sp 32 +
+STACK CFI 12490 .cfa: sp 0 +
+STACK CFI INIT 12494 24 .cfa: sp 0 +
+STACK CFI 12498 .cfa: sp 32 +
+STACK CFI 124a0 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 124ac .cfa: sp 32 +
+STACK CFI 124b4 .cfa: sp 0 +
+STACK CFI INIT 124b8 8 .cfa: sp 0 +
+STACK CFI INIT 124c0 8 .cfa: sp 0 +
+STACK CFI INIT 124c8 8 .cfa: sp 0 +
+STACK CFI INIT 124d0 4 .cfa: sp 0 +
+STACK CFI INIT 124d4 8 .cfa: sp 0 +
+STACK CFI INIT 124dc 8c .cfa: sp 0 +
+STACK CFI 124e0 .cfa: sp 32 +
+STACK CFI 124e8 .cfa: x29 32 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 12534 .cfa: sp 32 +
+STACK CFI 1253c .cfa: sp 0 +
+STACK CFI 12540 .cfa: x29 32 +
+STACK CFI 1255c .cfa: sp 32 +
+STACK CFI 12564 .cfa: sp 0 +
+STACK CFI INIT 12568 9c .cfa: sp 0 +
+STACK CFI 1256c .cfa: sp 32 +
+STACK CFI 12574 .cfa: x29 32 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 125c8 .cfa: sp 32 +
+STACK CFI 125d0 .cfa: sp 0 +
+STACK CFI 125d4 .cfa: x29 32 +
+STACK CFI 125f8 .cfa: sp 32 +
+STACK CFI 12600 .cfa: sp 0 +
+STACK CFI INIT 12604 4 .cfa: sp 0 +
+STACK CFI INIT 12608 4 .cfa: sp 0 +
+STACK CFI INIT 1260c 8 .cfa: sp 0 +
+STACK CFI INIT 12614 8 .cfa: sp 0 +
+STACK CFI INIT 1261c 10 .cfa: sp 0 +
+STACK CFI 12620 .cfa: sp 16 +
+STACK CFI 12624 .cfa: x29 16 + .ra: .cfa -8 + ^ x29: .cfa -16 + ^
+STACK CFI INIT 126d4 34 .cfa: sp 0 +
+STACK CFI 126d8 .cfa: sp 16 +
+STACK CFI 126dc .cfa: x29 16 + .ra: .cfa -8 + ^ x29: .cfa -16 + ^
+STACK CFI INIT 12708 34 .cfa: sp 0 +
+STACK CFI 1270c .cfa: sp 16 +
+STACK CFI 12710 .cfa: x29 16 + .ra: .cfa -8 + ^ x29: .cfa -16 + ^
+STACK CFI INIT 1273c 114 .cfa: sp 0 +
+STACK CFI 12740 .cfa: sp 80 +
+STACK CFI 12750 .cfa: x29 48 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ .ra: .cfa -40 + ^ x29: .cfa -48 + ^
+STACK CFI 12838 .cfa: sp 80 +
+STACK CFI 12848 .cfa: sp 0 +
+STACK CFI 1284c .cfa: x29 48 +
+STACK CFI INIT 13174 18 .cfa: sp 0 +
+STACK CFI INIT 13600 18 .cfa: sp 0 +
+STACK CFI INIT 13618 50 .cfa: sp 0 +
+STACK CFI 1361c .cfa: sp 32 +
+STACK CFI 13624 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 1363c .cfa: sp 32 +
+STACK CFI 13644 .cfa: sp 0 +
+STACK CFI 13648 .cfa: x29 32 +
+STACK CFI 1365c .cfa: sp 32 +
+STACK CFI 13664 .cfa: sp 0 +
+STACK CFI INIT 13668 f8 .cfa: sp 0 +
+STACK CFI 1366c .cfa: sp 64 +
+STACK CFI 1367c .cfa: x29 64 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -48 + ^ .ra: .cfa -56 + ^ x29: .cfa -64 + ^
+STACK CFI 136d8 .cfa: sp 64 +
+STACK CFI 136e8 .cfa: sp 0 +
+STACK CFI 136ec .cfa: x29 64 +
+STACK CFI 13708 .cfa: sp 64 +
+STACK CFI 13718 .cfa: sp 0 +
+STACK CFI 1371c .cfa: x29 64 +
+STACK CFI 1374c .cfa: sp 64 +
+STACK CFI 1375c .cfa: sp 0 +
+STACK CFI INIT 13b58 34 .cfa: sp 0 +
+STACK CFI 13b5c .cfa: sp 32 +
+STACK CFI 13b64 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI INIT 13b8c 10 .cfa: sp 0 +
+STACK CFI INIT 13b9c 30 .cfa: sp 0 +
+STACK CFI 13ba0 .cfa: sp 32 +
+STACK CFI 13ba8 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 13bc0 .cfa: sp 32 +
+STACK CFI 13bc8 .cfa: sp 0 +
+STACK CFI INIT 13bcc c .cfa: sp 0 +
+STACK CFI INIT 13bd8 4 .cfa: sp 0 +
+STACK CFI INIT 13bdc 34 .cfa: sp 0 +
+STACK CFI 13be0 .cfa: sp 16 +
+STACK CFI 13be4 .cfa: x29 16 + .ra: .cfa -8 + ^ x29: .cfa -16 + ^
+STACK CFI INIT 13c10 24 .cfa: sp 0 +
+STACK CFI 13c14 .cfa: sp 32 +
+STACK CFI 13c1c .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 13c28 .cfa: sp 32 +
+STACK CFI 13c30 .cfa: sp 0 +
+STACK CFI INIT 13c34 94 .cfa: sp 0 +
+STACK CFI 13c38 .cfa: sp 48 +
+STACK CFI 13c44 .cfa: x29 48 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ .ra: .cfa -40 + ^ x29: .cfa -48 + ^
+STACK CFI 13c5c .cfa: sp 48 +
+STACK CFI 13c68 .cfa: sp 0 +
+STACK CFI 13c6c .cfa: x29 48 +
+STACK CFI 13cb0 .cfa: sp 48 +
+STACK CFI 13cbc .cfa: sp 0 +
+STACK CFI 13cc0 .cfa: x29 48 +
+STACK CFI INIT 13cc8 14 .cfa: sp 0 +
+STACK CFI 13ccc .cfa: sp 16 +
+STACK CFI 13cd0 .cfa: x29 16 + .ra: .cfa -8 + ^ x29: .cfa -16 + ^
+STACK CFI INIT 13d2c 30 .cfa: sp 0 +
+STACK CFI 13d30 .cfa: sp 32 +
+STACK CFI 13d38 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 13d50 .cfa: sp 32 +
+STACK CFI 13d58 .cfa: sp 0 +
+STACK CFI INIT 13d5c 4 .cfa: sp 0 +
+STACK CFI INIT 13d60 4 .cfa: sp 0 +
+STACK CFI INIT 13d64 34 .cfa: sp 0 +
+STACK CFI 13d68 .cfa: sp 32 +
+STACK CFI 13d70 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 13d8c .cfa: sp 32 +
+STACK CFI 13d94 .cfa: sp 0 +
+STACK CFI INIT 13d98 14 .cfa: sp 0 +
+STACK CFI INIT 13dac 4 .cfa: sp 0 +
+STACK CFI INIT 13db0 4 .cfa: sp 0 +
+STACK CFI INIT 13db4 14 .cfa: sp 0 +
+STACK CFI INIT 13dc8 1c .cfa: sp 0 +
+STACK CFI INIT 13de4 c .cfa: sp 0 +
+STACK CFI INIT 13df0 4 .cfa: sp 0 +
+STACK CFI INIT 13df4 14 .cfa: sp 0 +
+STACK CFI INIT 13f00 50 .cfa: sp 0 +
+STACK CFI 13f04 .cfa: sp 32 +
+STACK CFI 13f0c .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 13f24 .cfa: sp 32 +
+STACK CFI 13f2c .cfa: sp 0 +
+STACK CFI 13f30 .cfa: x29 32 +
+STACK CFI 13f44 .cfa: sp 32 +
+STACK CFI 13f4c .cfa: sp 0 +
+STACK CFI INIT 13f50 4 .cfa: sp 0 +
+STACK CFI INIT 13f54 38 .cfa: sp 0 +
+STACK CFI 13f58 .cfa: sp 32 +
+STACK CFI 13f60 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 13f80 .cfa: sp 32 +
+STACK CFI 13f88 .cfa: sp 0 +
+STACK CFI INIT 13f8c 18 .cfa: sp 0 +
+STACK CFI INIT 13fa4 4 .cfa: sp 0 +
+STACK CFI INIT 13fa8 4 .cfa: sp 0 +
+STACK CFI INIT 1419c 1c .cfa: sp 0 +
+STACK CFI INIT 141b8 c .cfa: sp 0 +
+STACK CFI INIT 141c4 4 .cfa: sp 0 +
+STACK CFI INIT 1432c 9c .cfa: sp 0 +
+STACK CFI 14330 .cfa: sp 32 +
+STACK CFI 14338 .cfa: x29 32 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 143bc .cfa: sp 32 +
+STACK CFI 143c4 .cfa: sp 0 +
+STACK CFI INIT 143c8 a4 .cfa: sp 0 +
+STACK CFI 143cc .cfa: sp 32 +
+STACK CFI 143d4 .cfa: x29 32 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 14460 .cfa: sp 32 +
+STACK CFI 14468 .cfa: sp 0 +
+STACK CFI INIT 1446c 4 .cfa: sp 0 +
+STACK CFI INIT 14470 38 .cfa: sp 0 +
+STACK CFI 14474 .cfa: sp 32 +
+STACK CFI 1447c .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 1449c .cfa: sp 32 +
+STACK CFI 144a4 .cfa: sp 0 +
+STACK CFI INIT 144a8 18 .cfa: sp 0 +
+STACK CFI INIT 144c0 4 .cfa: sp 0 +
+STACK CFI INIT 144c4 4 .cfa: sp 0 +
+STACK CFI INIT 146d0 1c .cfa: sp 0 +
+STACK CFI INIT 146ec c .cfa: sp 0 +
+STACK CFI INIT 146f8 138 .cfa: sp 0 +
+STACK CFI 146fc .cfa: sp 96 +
+STACK CFI 14710 .cfa: x29 48 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ .ra: .cfa -40 + ^ x29: .cfa -48 + ^ v8: .cfa -64 + ^
+STACK CFI 14814 .cfa: sp 96 +
+STACK CFI 14828 .cfa: sp 0 +
+STACK CFI 1482c .cfa: x29 48 +
+STACK CFI INIT 14830 50 .cfa: sp 0 +
+STACK CFI 14834 .cfa: sp 32 +
+STACK CFI 1483c .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 14854 .cfa: sp 32 +
+STACK CFI 1485c .cfa: sp 0 +
+STACK CFI 14860 .cfa: x29 32 +
+STACK CFI 14874 .cfa: sp 32 +
+STACK CFI 1487c .cfa: sp 0 +
+STACK CFI INIT 14880 4 .cfa: sp 0 +
+STACK CFI INIT 14884 4 .cfa: sp 0 +
+STACK CFI INIT 14888 38 .cfa: sp 0 +
+STACK CFI 1488c .cfa: sp 32 +
+STACK CFI 14894 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 148b4 .cfa: sp 32 +
+STACK CFI 148bc .cfa: sp 0 +
+STACK CFI INIT 148c0 18 .cfa: sp 0 +
+STACK CFI INIT 148d8 4 .cfa: sp 0 +
+STACK CFI INIT 148dc 4 .cfa: sp 0 +
+STACK CFI INIT 14af4 1c .cfa: sp 0 +
+STACK CFI INIT 14b10 c .cfa: sp 0 +
+STACK CFI INIT 14b1c 4 .cfa: sp 0 +
+STACK CFI INIT 14c84 5c .cfa: sp 0 +
+STACK CFI 14c88 .cfa: sp 32 +
+STACK CFI 14c90 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 14cd4 .cfa: sp 32 +
+STACK CFI 14cdc .cfa: sp 0 +
+STACK CFI INIT 14ce0 64 .cfa: sp 0 +
+STACK CFI 14ce4 .cfa: sp 32 +
+STACK CFI 14cec .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 14d38 .cfa: sp 32 +
+STACK CFI 14d40 .cfa: sp 0 +
+STACK CFI INIT 14d44 4 .cfa: sp 0 +
+STACK CFI INIT 14d48 4 .cfa: sp 0 +
+STACK CFI INIT 14d4c 34 .cfa: sp 0 +
+STACK CFI 14d50 .cfa: sp 32 +
+STACK CFI 14d58 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 14d74 .cfa: sp 32 +
+STACK CFI 14d7c .cfa: sp 0 +
+STACK CFI INIT 14d80 14 .cfa: sp 0 +
+STACK CFI INIT 14d94 4 .cfa: sp 0 +
+STACK CFI INIT 14d98 4 .cfa: sp 0 +
+STACK CFI INIT 14d9c 10 .cfa: sp 0 +
+STACK CFI INIT 14dac 1c .cfa: sp 0 +
+STACK CFI INIT 14dc8 c .cfa: sp 0 +
+STACK CFI INIT 15510 50 .cfa: sp 0 +
+STACK CFI 15514 .cfa: sp 32 +
+STACK CFI 1551c .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 15534 .cfa: sp 32 +
+STACK CFI 1553c .cfa: sp 0 +
+STACK CFI 15540 .cfa: x29 32 +
+STACK CFI 15554 .cfa: sp 32 +
+STACK CFI 1555c .cfa: sp 0 +
+STACK CFI INIT 155d4 7c .cfa: sp 0 +
+STACK CFI 155d8 .cfa: sp 48 +
+STACK CFI 155e4 .cfa: x29 48 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -32 + ^ .ra: .cfa -40 + ^ x29: .cfa -48 + ^
+STACK CFI 15630 .cfa: sp 48 +
+STACK CFI 1563c .cfa: sp 0 +
+STACK CFI 15640 .cfa: sp 48 +
+STACK CFI 1564c .cfa: sp 0 +
+STACK CFI INIT 15650 4 .cfa: sp 0 +
+STACK CFI INIT 158dc 80 .cfa: sp 0 +
+STACK CFI 158e0 .cfa: sp 48 +
+STACK CFI 158ec .cfa: x29 48 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -32 + ^ .ra: .cfa -40 + ^ x29: .cfa -48 + ^
+STACK CFI 1594c .cfa: sp 48 +
+STACK CFI 15958 .cfa: sp 0 +
+STACK CFI INIT 15e5c 148 .cfa: sp 0 +
+STACK CFI 15e60 .cfa: sp 48 +
+STACK CFI 15e6c .cfa: x29 48 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -32 + ^ .ra: .cfa -40 + ^ x29: .cfa -48 + ^
+STACK CFI 15f94 .cfa: sp 48 +
+STACK CFI 15fa0 .cfa: sp 0 +
+STACK CFI INIT 15fa4 88 .cfa: sp 0 +
+STACK CFI 15fac .cfa: sp 48 +
+STACK CFI 15fb8 .cfa: x29 48 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ .ra: .cfa -40 + ^ x29: .cfa -48 + ^
+STACK CFI 1601c .cfa: sp 48 +
+STACK CFI 16028 .cfa: sp 0 +
+STACK CFI INIT 161d8 68 .cfa: sp 0 +
+STACK CFI 161dc .cfa: sp 32 +
+STACK CFI 161e4 .cfa: x29 32 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 161fc .cfa: sp 32 +
+STACK CFI 16204 .cfa: sp 0 +
+STACK CFI 16208 .cfa: x29 32 +
+STACK CFI 16234 .cfa: sp 32 +
+STACK CFI 1623c .cfa: sp 0 +
+STACK CFI INIT 16240 14 .cfa: sp 0 +
+STACK CFI 16244 .cfa: sp 16 +
+STACK CFI 16248 .cfa: x29 16 + .ra: .cfa -8 + ^ x29: .cfa -16 + ^
+STACK CFI INIT 16254 4 .cfa: sp 0 +
+STACK CFI INIT 16258 14 .cfa: sp 0 +
+STACK CFI INIT 1626c 128 .cfa: sp 0 +
+STACK CFI 16270 .cfa: sp 64 +
+STACK CFI 16280 .cfa: x29 64 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ .ra: .cfa -56 + ^ x29: .cfa -64 + ^
+STACK CFI 16380 .cfa: sp 64 +
+STACK CFI 16390 .cfa: sp 0 +
+STACK CFI INIT 16394 4a4 .cfa: sp 0 +
+STACK CFI 16398 .cfa: sp 32 +
+STACK CFI 163a0 .cfa: x29 32 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 16780 .cfa: sp 32 +
+STACK CFI 16788 .cfa: sp 0 +
+STACK CFI 1678c .cfa: x29 32 +
+STACK CFI INIT 16838 84 .cfa: sp 0 +
+STACK CFI 16840 .cfa: sp 32 +
+STACK CFI 16848 .cfa: x29 32 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 16888 .cfa: sp 32 +
+STACK CFI 16890 .cfa: sp 0 +
+STACK CFI 16898 .cfa: x29 32 +
+STACK CFI INIT 171b0 50 .cfa: sp 0 +
+STACK CFI 171b4 .cfa: sp 32 +
+STACK CFI 171bc .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 171d4 .cfa: sp 32 +
+STACK CFI 171dc .cfa: sp 0 +
+STACK CFI 171e0 .cfa: x29 32 +
+STACK CFI 171f4 .cfa: sp 32 +
+STACK CFI 171fc .cfa: sp 0 +
+STACK CFI INIT 17200 64 .cfa: sp 0 +
+STACK CFI 17204 .cfa: sp 32 +
+STACK CFI 1720c .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 17238 .cfa: sp 32 +
+STACK CFI 17240 .cfa: sp 0 +
+STACK CFI 17244 .cfa: x29 32 +
+STACK CFI 17258 .cfa: sp 32 +
+STACK CFI 17260 .cfa: sp 0 +
+STACK CFI INIT 173f4 128 .cfa: sp 0 +
+STACK CFI 173f8 .cfa: sp 80 +
+STACK CFI 17408 .cfa: x29 48 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ .ra: .cfa -40 + ^ x29: .cfa -48 + ^
+STACK CFI 17504 .cfa: sp 80 +
+STACK CFI 17514 .cfa: sp 0 +
+STACK CFI 17518 .cfa: x29 48 +
+STACK CFI INIT 17884 50 .cfa: sp 0 +
+STACK CFI 17888 .cfa: sp 32 +
+STACK CFI 17890 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 178a8 .cfa: sp 32 +
+STACK CFI 178b0 .cfa: sp 0 +
+STACK CFI 178b4 .cfa: x29 32 +
+STACK CFI 178c8 .cfa: sp 32 +
+STACK CFI 178d0 .cfa: sp 0 +
+STACK CFI INIT 178d4 50 .cfa: sp 0 +
+STACK CFI 178d8 .cfa: sp 32 +
+STACK CFI 178e0 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 178f8 .cfa: sp 32 +
+STACK CFI 17900 .cfa: sp 0 +
+STACK CFI 17904 .cfa: x29 32 +
+STACK CFI 17918 .cfa: sp 32 +
+STACK CFI 17920 .cfa: sp 0 +
+STACK CFI INIT 17924 ac .cfa: sp 0 +
+STACK CFI 17928 .cfa: sp 64 +
+STACK CFI 17938 .cfa: x29 64 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -48 + ^ .ra: .cfa -56 + ^ x29: .cfa -64 + ^
+STACK CFI 179b4 .cfa: sp 64 +
+STACK CFI 179c4 .cfa: sp 0 +
+STACK CFI 179c8 .cfa: x29 64 +
+STACK CFI INIT 179d0 13c .cfa: sp 0 +
+STACK CFI 179d4 .cfa: sp 64 +
+STACK CFI 179e4 .cfa: x29 64 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ .ra: .cfa -56 + ^ x29: .cfa -64 + ^
+STACK CFI 17ac4 .cfa: sp 64 +
+STACK CFI 17ad4 .cfa: sp 0 +
+STACK CFI 17ad8 .cfa: x29 64 +
+STACK CFI INIT 17b0c 30c .cfa: sp 0 +
+STACK CFI 17b10 .cfa: sp 96 +
+STACK CFI 17b28 .cfa: x29 96 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ x25: .cfa -56 + ^ x26: .cfa -64 + ^ x27: .cfa -80 + ^ .ra: .cfa -88 + ^ x29: .cfa -96 + ^
+STACK CFI 17ddc .cfa: sp 96 +
+STACK CFI 17df4 .cfa: sp 0 +
+STACK CFI 17df8 .cfa: x29 96 +
+STACK CFI INIT 183dc 4 .cfa: sp 0 +
+STACK CFI INIT 18938 8c .cfa: sp 0 +
+STACK CFI 1893c .cfa: sp 32 +
+STACK CFI 18944 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 189b8 .cfa: sp 32 +
+STACK CFI 189c0 .cfa: sp 0 +
+STACK CFI INIT 189c4 3c .cfa: sp 0 +
+STACK CFI 189c8 .cfa: sp 32 +
+STACK CFI 189d0 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 189dc .cfa: sp 32 +
+STACK CFI 189e4 .cfa: sp 0 +
+STACK CFI 189e8 .cfa: x29 32 +
+STACK CFI 189f4 .cfa: sp 32 +
+STACK CFI 189fc .cfa: sp 0 +
+STACK CFI INIT 18b18 3c .cfa: sp 0 +
+STACK CFI 18b1c .cfa: sp 32 +
+STACK CFI 18b24 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 18b30 .cfa: sp 32 +
+STACK CFI 18b38 .cfa: sp 0 +
+STACK CFI 18b3c .cfa: x29 32 +
+STACK CFI 18b48 .cfa: sp 32 +
+STACK CFI 18b50 .cfa: sp 0 +
+STACK CFI INIT 18b54 3c .cfa: sp 0 +
+STACK CFI 18b58 .cfa: sp 32 +
+STACK CFI 18b60 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 18b6c .cfa: sp 32 +
+STACK CFI 18b74 .cfa: sp 0 +
+STACK CFI 18b78 .cfa: x29 32 +
+STACK CFI 18b84 .cfa: sp 32 +
+STACK CFI 18b8c .cfa: sp 0 +
+STACK CFI INIT 18db0 64 .cfa: sp 0 +
+STACK CFI 18db4 .cfa: sp 32 +
+STACK CFI 18dbc .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 18de8 .cfa: sp 32 +
+STACK CFI 18df0 .cfa: sp 0 +
+STACK CFI 18df4 .cfa: x29 32 +
+STACK CFI 18e08 .cfa: sp 32 +
+STACK CFI 18e10 .cfa: sp 0 +
+STACK CFI INIT 18e14 24 .cfa: sp 0 +
+STACK CFI 18e18 .cfa: sp 32 +
+STACK CFI 18e20 .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 18e2c .cfa: sp 32 +
+STACK CFI 18e34 .cfa: sp 0 +
+STACK CFI INIT 19000 24 .cfa: sp 0 +
+STACK CFI 19004 .cfa: sp 32 +
+STACK CFI 1900c .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 19018 .cfa: sp 32 +
+STACK CFI 19020 .cfa: sp 0 +
+STACK CFI INIT 19024 14 .cfa: sp 0 +
+STACK CFI INIT 19038 4 .cfa: sp 0 +
+STACK CFI INIT 195b0 4 .cfa: sp 0 +
+STACK CFI INIT 195b4 14 .cfa: sp 0 +
+STACK CFI INIT 11d90 664 .cfa: sp 0 +
+STACK CFI 11d94 .cfa: sp 256 +
+STACK CFI 11db4 .cfa: x29 96 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ x25: .cfa -56 + ^ x26: .cfa -64 + ^ x27: .cfa -72 + ^ x28: .cfa -80 + ^ .ra: .cfa -88 + ^ x29: .cfa -96 + ^ v8: .cfa -112 + ^
+STACK CFI 12270 .cfa: sp 256 +
+STACK CFI 12290 .cfa: sp 0 +
+STACK CFI 12294 .cfa: x29 96 +
+STACK CFI INIT 1262c a8 .cfa: sp 0 +
+STACK CFI 12630 .cfa: sp 64 +
+STACK CFI 1263c .cfa: x29 32 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 12694 .cfa: sp 64 +
+STACK CFI 126a0 .cfa: sp 0 +
+STACK CFI 126a4 .cfa: x29 32 +
+STACK CFI INIT 12850 4b0 .cfa: sp 0 +
+STACK CFI 12854 .cfa: sp 256 +
+STACK CFI 12864 .cfa: x29 48 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -32 + ^ .ra: .cfa -40 + ^ x29: .cfa -48 + ^
+STACK CFI 12bfc .cfa: sp 256 +
+STACK CFI 12c0c .cfa: sp 0 +
+STACK CFI 12c10 .cfa: x29 48 +
+STACK CFI INIT 12d00 474 .cfa: sp 0 +
+STACK CFI 12d04 .cfa: sp 224 +
+STACK CFI 12d20 .cfa: x29 96 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ x25: .cfa -56 + ^ x26: .cfa -64 + ^ x27: .cfa -72 + ^ x28: .cfa -80 + ^ .ra: .cfa -88 + ^ x29: .cfa -96 + ^
+STACK CFI 12f80 .cfa: sp 224 +
+STACK CFI 12f9c .cfa: sp 0 +
+STACK CFI 12fa0 .cfa: x29 96 +
+STACK CFI 1306c .cfa: sp 224 +
+STACK CFI 13088 .cfa: sp 0 +
+STACK CFI 1308c .cfa: x29 96 +
+STACK CFI INIT 1318c 474 .cfa: sp 0 +
+STACK CFI 13190 .cfa: sp 224 +
+STACK CFI 131ac .cfa: x29 96 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ x25: .cfa -56 + ^ x26: .cfa -64 + ^ x27: .cfa -72 + ^ x28: .cfa -80 + ^ .ra: .cfa -88 + ^ x29: .cfa -96 + ^
+STACK CFI 1340c .cfa: sp 224 +
+STACK CFI 13428 .cfa: sp 0 +
+STACK CFI 1342c .cfa: x29 96 +
+STACK CFI 134f8 .cfa: sp 224 +
+STACK CFI 13514 .cfa: sp 0 +
+STACK CFI 13518 .cfa: x29 96 +
+STACK CFI INIT 13760 384 .cfa: sp 0 +
+STACK CFI 13764 .cfa: sp 192 +
+STACK CFI 13780 .cfa: x29 96 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ x25: .cfa -56 + ^ x26: .cfa -64 + ^ x27: .cfa -80 + ^ .ra: .cfa -88 + ^ x29: .cfa -96 + ^
+STACK CFI 139b0 .cfa: sp 192 +
+STACK CFI 139cc .cfa: sp 0 +
+STACK CFI 139d0 .cfa: x29 96 +
+STACK CFI INIT 13ae4 74 .cfa: sp 0 +
+STACK CFI 13ae8 .cfa: sp 48 +
+STACK CFI 13af4 .cfa: x29 32 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 13b40 .cfa: sp 48 +
+STACK CFI 13b4c .cfa: sp 0 +
+STACK CFI 13b50 .cfa: x29 32 +
+STACK CFI INIT 13cdc 50 .cfa: sp 0 +
+STACK CFI 13ce0 .cfa: sp 32 +
+STACK CFI 13ce8 .cfa: x29 32 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI INIT 13e08 f8 .cfa: sp 0 +
+STACK CFI 13e0c .cfa: sp 48 +
+STACK CFI 13e18 .cfa: x29 48 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -32 + ^ .ra: .cfa -40 + ^ x29: .cfa -48 + ^
+STACK CFI 13e84 .cfa: sp 48 +
+STACK CFI 13e90 .cfa: sp 0 +
+STACK CFI 13e94 .cfa: x29 48 +
+STACK CFI INIT 13fac 1f0 .cfa: sp 0 +
+STACK CFI 13fb0 .cfa: sp 96 +
+STACK CFI 13fc4 .cfa: x29 48 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ .ra: .cfa -40 + ^ x29: .cfa -48 + ^ v8: .cfa -64 + ^
+STACK CFI 140e4 .cfa: sp 96 +
+STACK CFI 140f8 .cfa: sp 0 +
+STACK CFI 140fc .cfa: x29 48 +
+STACK CFI 14144 .cfa: sp 96 +
+STACK CFI 14158 .cfa: sp 0 +
+STACK CFI 1415c .cfa: x29 48 +
+STACK CFI INIT 141c8 164 .cfa: sp 0 +
+STACK CFI 141cc .cfa: sp 112 +
+STACK CFI 141dc .cfa: x29 48 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ .ra: .cfa -40 + ^ x29: .cfa -48 + ^
+STACK CFI 142c8 .cfa: sp 112 +
+STACK CFI 142d8 .cfa: sp 0 +
+STACK CFI 142dc .cfa: x29 48 +
+STACK CFI INIT 144c8 208 .cfa: sp 0 +
+STACK CFI 144cc .cfa: sp 96 +
+STACK CFI 144e4 .cfa: x29 56 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ .ra: .cfa -48 + ^ x29: .cfa -56 + ^ v8: .cfa -64 + ^
+STACK CFI 14604 .cfa: sp 96 +
+STACK CFI 1461c .cfa: sp 0 +
+STACK CFI 14620 .cfa: x29 56 +
+STACK CFI 14674 .cfa: sp 96 +
+STACK CFI 1468c .cfa: sp 0 +
+STACK CFI 14690 .cfa: x29 56 +
+STACK CFI INIT 148e0 214 .cfa: sp 0 +
+STACK CFI 148e4 .cfa: sp 96 +
+STACK CFI 148fc .cfa: x29 56 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ .ra: .cfa -48 + ^ x29: .cfa -56 + ^ v8: .cfa -64 + ^
+STACK CFI 14a28 .cfa: sp 96 +
+STACK CFI 14a40 .cfa: sp 0 +
+STACK CFI 14a44 .cfa: x29 56 +
+STACK CFI 14a98 .cfa: sp 96 +
+STACK CFI 14ab0 .cfa: sp 0 +
+STACK CFI 14ab4 .cfa: x29 56 +
+STACK CFI INIT 14b20 164 .cfa: sp 0 +
+STACK CFI 14b24 .cfa: sp 112 +
+STACK CFI 14b34 .cfa: x29 48 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ .ra: .cfa -40 + ^ x29: .cfa -48 + ^
+STACK CFI 14c20 .cfa: sp 112 +
+STACK CFI 14c30 .cfa: sp 0 +
+STACK CFI 14c34 .cfa: x29 48 +
+STACK CFI INIT 14dd4 73c .cfa: sp 0 +
+STACK CFI 14dd8 .cfa: sp 224 +
+STACK CFI 14df0 .cfa: x29 80 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ x25: .cfa -56 + ^ x26: .cfa -64 + ^ .ra: .cfa -72 + ^ x29: .cfa -80 + ^
+STACK CFI 152cc .cfa: sp 224 +
+STACK CFI 152e4 .cfa: sp 0 +
+STACK CFI 152e8 .cfa: x29 80 +
+STACK CFI INIT 15560 74 .cfa: sp 0 +
+STACK CFI 15564 .cfa: sp 48 +
+STACK CFI 15570 .cfa: x29 32 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 155bc .cfa: sp 48 +
+STACK CFI 155c8 .cfa: sp 0 +
+STACK CFI 155cc .cfa: x29 32 +
+STACK CFI INIT 15654 154 .cfa: sp 0 +
+STACK CFI 15658 .cfa: sp 384 +
+STACK CFI 1566c .cfa: x29 64 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x28: .cfa -48 + ^ .ra: .cfa -56 + ^ x29: .cfa -64 + ^
+STACK CFI 15750 .cfa: sp 384 +
+STACK CFI 15764 .cfa: sp 0 +
+STACK CFI 15768 .cfa: x29 64 +
+STACK CFI INIT 157a8 134 .cfa: sp 0 +
+STACK CFI 157ac .cfa: sp 80 +
+STACK CFI 157c0 .cfa: x29 80 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ x25: .cfa -56 + ^ x26: .cfa -64 + ^ .ra: .cfa -72 + ^ x29: .cfa -80 + ^
+STACK CFI 15890 .cfa: sp 80 +
+STACK CFI 158a4 .cfa: sp 0 +
+STACK CFI 158a8 .cfa: x29 80 +
+STACK CFI INIT 1595c 1a4 .cfa: sp 0 +
+STACK CFI 15960 .cfa: sp 112 +
+STACK CFI 15978 .cfa: x29 80 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ x25: .cfa -56 + ^ x26: .cfa -64 + ^ .ra: .cfa -72 + ^ x29: .cfa -80 + ^
+STACK CFI 15a68 .cfa: sp 112 +
+STACK CFI 15a80 .cfa: sp 0 +
+STACK CFI 15a84 .cfa: x29 80 +
+STACK CFI INIT 15b00 1ec .cfa: sp 0 +
+STACK CFI 15b04 .cfa: sp 128 +
+STACK CFI 15b20 .cfa: x29 96 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ x25: .cfa -56 + ^ x26: .cfa -64 + ^ x27: .cfa -80 + ^ .ra: .cfa -88 + ^ x29: .cfa -96 + ^
+STACK CFI 15c9c .cfa: sp 128 +
+STACK CFI 15cb8 .cfa: sp 0 +
+STACK CFI 15cbc .cfa: x29 96 +
+STACK CFI INIT 15cec 170 .cfa: sp 0 +
+STACK CFI 15cf0 .cfa: sp 48 +
+STACK CFI 15cfc .cfa: x29 48 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -32 + ^ .ra: .cfa -40 + ^ x29: .cfa -48 + ^
+STACK CFI 15e30 .cfa: sp 48 +
+STACK CFI 15e3c .cfa: sp 0 +
+STACK CFI 15e40 .cfa: x29 48 +
+STACK CFI INIT 1602c 1ac .cfa: sp 0 +
+STACK CFI 16030 .cfa: sp 128 +
+STACK CFI 16048 .cfa: x29 80 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ x25: .cfa -64 + ^ .ra: .cfa -72 + ^ x29: .cfa -80 + ^
+STACK CFI 1616c .cfa: sp 128 +
+STACK CFI 16184 .cfa: sp 0 +
+STACK CFI 16188 .cfa: x29 80 +
+STACK CFI INIT 168bc 6c8 .cfa: sp 0 +
+STACK CFI 168c0 .cfa: sp 192 +
+STACK CFI 168d8 .cfa: x29 80 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ x25: .cfa -56 + ^ x26: .cfa -64 + ^ .ra: .cfa -72 + ^ x29: .cfa -80 + ^
+STACK CFI 16e48 .cfa: sp 192 +
+STACK CFI 16e60 .cfa: sp 0 +
+STACK CFI 16e64 .cfa: x29 80 +
+STACK CFI INIT 16f84 134 .cfa: sp 0 +
+STACK CFI 16f88 .cfa: sp 128 +
+STACK CFI 16f9c .cfa: x29 64 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ .ra: .cfa -56 + ^ x29: .cfa -64 + ^
+STACK CFI 17068 .cfa: sp 128 +
+STACK CFI 1707c .cfa: sp 0 +
+STACK CFI 17080 .cfa: x29 64 +
+STACK CFI INIT 170b8 7c .cfa: sp 0 +
+STACK CFI 170bc .cfa: sp 32 +
+STACK CFI 170c4 .cfa: x29 32 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 170d4 .cfa: sp 32 +
+STACK CFI 170dc .cfa: sp 0 +
+STACK CFI 170e0 .cfa: x29 32 +
+STACK CFI 17114 .cfa: sp 32 +
+STACK CFI 1711c .cfa: sp 0 +
+STACK CFI 17120 .cfa: x29 32 +
+STACK CFI INIT 17134 7c .cfa: sp 0 +
+STACK CFI 17138 .cfa: sp 32 +
+STACK CFI 17140 .cfa: x29 32 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 17150 .cfa: sp 32 +
+STACK CFI 17158 .cfa: sp 0 +
+STACK CFI 1715c .cfa: x29 32 +
+STACK CFI 17190 .cfa: sp 32 +
+STACK CFI 17198 .cfa: sp 0 +
+STACK CFI 1719c .cfa: x29 32 +
+STACK CFI INIT 17264 190 .cfa: sp 0 +
+STACK CFI 17268 .cfa: sp 96 +
+STACK CFI 1727c .cfa: x29 64 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -48 + ^ .ra: .cfa -56 + ^ x29: .cfa -64 + ^
+STACK CFI 17374 .cfa: sp 96 +
+STACK CFI 17388 .cfa: sp 0 +
+STACK CFI 1738c .cfa: x29 64 +
+STACK CFI INIT 1751c 368 .cfa: sp 0 +
+STACK CFI 17520 .cfa: sp 224 +
+STACK CFI 17538 .cfa: x29 80 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ x25: .cfa -64 + ^ .ra: .cfa -72 + ^ x29: .cfa -80 + ^
+STACK CFI 177cc .cfa: sp 224 +
+STACK CFI 177e4 .cfa: sp 0 +
+STACK CFI 177e8 .cfa: x29 80 +
+STACK CFI INIT 17e18 5c4 .cfa: sp 0 +
+STACK CFI 17e1c .cfa: sp 240 +
+STACK CFI 17e34 .cfa: x29 80 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ x25: .cfa -56 + ^ x26: .cfa -64 + ^ .ra: .cfa -72 + ^ x29: .cfa -80 + ^
+STACK CFI 1820c .cfa: sp 240 +
+STACK CFI 18224 .cfa: sp 0 +
+STACK CFI 18228 .cfa: x29 80 +
+STACK CFI INIT 183e0 428 .cfa: sp 0 +
+STACK CFI 183e4 .cfa: sp 128 +
+STACK CFI 18400 .cfa: x29 80 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x24: .cfa -48 + ^ x25: .cfa -56 + ^ x26: .cfa -64 + ^ .ra: .cfa -72 + ^ x29: .cfa -80 + ^ v8: .cfa -96 + ^
+STACK CFI 18794 .cfa: sp 128 +
+STACK CFI 187b0 .cfa: sp 0 +
+STACK CFI 187b4 .cfa: x29 80 +
+STACK CFI INIT 18808 88 .cfa: sp 0 +
+STACK CFI 1880c .cfa: sp 48 +
+STACK CFI 18818 .cfa: x29 48 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ .ra: .cfa -40 + ^ x29: .cfa -48 + ^
+STACK CFI 1886c .cfa: sp 48 +
+STACK CFI 18878 .cfa: sp 0 +
+STACK CFI 1887c .cfa: x29 48 +
+STACK CFI INIT 18890 a8 .cfa: sp 0 +
+STACK CFI 18894 .cfa: sp 32 +
+STACK CFI 1889c .cfa: x29 32 + x19: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 188d0 .cfa: sp 32 +
+STACK CFI 188d8 .cfa: sp 0 +
+STACK CFI 188dc .cfa: x29 32 +
+STACK CFI 188e0 .cfa: sp 32 +
+STACK CFI 188e8 .cfa: sp 0 +
+STACK CFI 188ec .cfa: x29 32 +
+STACK CFI INIT 18a00 118 .cfa: sp 0 +
+STACK CFI 18a04 .cfa: sp 80 +
+STACK CFI 18a14 .cfa: x29 48 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -32 + ^ .ra: .cfa -40 + ^ x29: .cfa -48 + ^
+STACK CFI 18a98 .cfa: sp 80 +
+STACK CFI 18aa8 .cfa: sp 0 +
+STACK CFI 18aac .cfa: x29 48 +
+STACK CFI INIT 18b90 134 .cfa: sp 0 +
+STACK CFI 18b94 .cfa: sp 80 +
+STACK CFI 18ba0 .cfa: x29 32 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 18bd0 .cfa: sp 80 +
+STACK CFI 18bdc .cfa: sp 0 +
+STACK CFI 18be0 .cfa: x29 32 +
+STACK CFI INIT 18cc4 78 .cfa: sp 0 +
+STACK CFI 18cc8 .cfa: sp 32 +
+STACK CFI 18cd0 .cfa: x29 32 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 18cdc .cfa: sp 32 +
+STACK CFI 18ce4 .cfa: sp 0 +
+STACK CFI 18ce8 .cfa: x29 32 +
+STACK CFI INIT 18d3c 74 .cfa: sp 0 +
+STACK CFI 18d40 .cfa: sp 48 +
+STACK CFI 18d4c .cfa: x29 32 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ .ra: .cfa -24 + ^ x29: .cfa -32 + ^
+STACK CFI 18d98 .cfa: sp 48 +
+STACK CFI 18da4 .cfa: sp 0 +
+STACK CFI 18da8 .cfa: x29 32 +
+STACK CFI INIT 18e38 1c8 .cfa: sp 0 +
+STACK CFI 18e3c .cfa: sp 112 +
+STACK CFI 18e4c .cfa: x29 48 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -32 + ^ .ra: .cfa -40 + ^ x29: .cfa -48 + ^
+STACK CFI 18eec .cfa: sp 112 +
+STACK CFI 18efc .cfa: sp 0 +
+STACK CFI 18f00 .cfa: x29 48 +
+STACK CFI INIT 1903c 184 .cfa: sp 0 +
+STACK CFI 19040 .cfa: sp 112 +
+STACK CFI 19050 .cfa: x29 48 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ .ra: .cfa -40 + ^ x29: .cfa -48 + ^
+STACK CFI 19100 .cfa: sp 112 +
+STACK CFI 19110 .cfa: sp 0 +
+STACK CFI 19114 .cfa: x29 48 +
+STACK CFI INIT 191c0 134 .cfa: sp 0 +
+STACK CFI 191c4 .cfa: sp 112 +
+STACK CFI 191d4 .cfa: x29 48 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -32 + ^ .ra: .cfa -40 + ^ x29: .cfa -48 + ^
+STACK CFI 19234 .cfa: sp 112 +
+STACK CFI 19244 .cfa: sp 0 +
+STACK CFI 19248 .cfa: x29 48 +
+STACK CFI INIT 192f4 154 .cfa: sp 0 +
+STACK CFI 192f8 .cfa: sp 384 +
+STACK CFI 1930c .cfa: x29 64 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x28: .cfa -48 + ^ .ra: .cfa -56 + ^ x29: .cfa -64 + ^
+STACK CFI 193f0 .cfa: sp 384 +
+STACK CFI 19404 .cfa: sp 0 +
+STACK CFI 19408 .cfa: x29 64 +
+STACK CFI INIT 19448 168 .cfa: sp 0 +
+STACK CFI 1944c .cfa: sp 384 +
+STACK CFI 19460 .cfa: x29 64 + x19: .cfa -8 + ^ x20: .cfa -16 + ^ x21: .cfa -24 + ^ x22: .cfa -32 + ^ x23: .cfa -40 + ^ x28: .cfa -48 + ^ .ra: .cfa -56 + ^ x29: .cfa -64 + ^
+STACK CFI 19558 .cfa: sp 384 +
+STACK CFI 1956c .cfa: sp 0 +
+STACK CFI 19570 .cfa: x29 64 +
